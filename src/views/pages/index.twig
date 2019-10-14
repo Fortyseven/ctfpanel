@@ -1,0 +1,45 @@
+{% extends "../_layouts/html.twig" %}
+{% block content %}
+    <div id="Links">
+    {% for section_name, object in sections %}
+        <section>
+            <h1>{{section_name}}</h1>
+            <ul>
+                {% for entry in object.entries %}
+                    <li {% if entry.favorite %}class="common"{% endif %}>
+                        <a href="{{entry.url}}">{{entry.name}}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+            {% if object.subgroups %}
+                {% for subgroup in object.subgroups %}
+                    <h2>{{subgroup.name}}</h2>
+                    <ul>
+                        {% for entry in subgroup.entries %}
+                            <li {% if entry.favorite %}class="common"{% endif %}>
+                                <a href="{{entry.url}}">{{entry.name}}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endfor %}
+            {% endif %}
+        </section>
+    {% endfor %}
+    </div>
+
+    <hr />
+    <div id="Cheats">
+        <h1>Cheat Sheets</h1>
+        {% for cheat_name, cheat_links in cheats %}
+        <details>
+            <summary>{{cheat_name}}</summary>
+            <ul>
+                {% for link in cheat_links %}
+                    <li><a href="{{link.url}}">{{link.name}}</a></li>
+                {% endfor %}
+            </ul>
+        </details>
+        {% endfor %}
+    </div>
+
+{% endblock content %}

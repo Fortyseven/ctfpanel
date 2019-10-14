@@ -1,0 +1,189 @@
+{
+    "sections": {
+        "🔧 General": {
+            "entries": [
+                {
+                    "name": "CyberChef",
+                    "url": "https://gchq.github.io/CyberChef/",
+                    "favorite": true
+                },
+                {
+                    "name": "Binvis",
+                    "url": "https://binvis.io/#/",
+                    "favorite": false
+                }
+            ]
+        },
+        "🌍 Network": {
+            "entries": [
+                {
+                    "name": "Shodan",
+                    "url": "https://www.shodan.io/"
+                },
+                {
+                    "name": "Greynoise",
+                    "url": "https://viz.greynoise.io/"
+                },
+                {
+                    "name": "Wigl",
+                    "url": "https://wigle.net/"
+                },
+                {
+                    "name": "Threatcrowd",
+                    "url": "https://www.threatcrowd.org/"
+                }
+            ],
+            "subgroups": [
+                {
+                    "name": "Domains",
+                    "entries": [
+                        {
+                            "name": "WhoXY",
+                            "url": "https://www.whoxy.com/"
+                        },
+                        {
+                            "name": "Whois History",
+                            "url": "https://whois-history-api.whoisxmlapi.com/"
+                        },
+                        {
+                            "name": "urlscan.io",
+                            "url": "https://urlscan.io/"
+                        },
+                        {
+                            "name": "Website Investigation",
+                            "url": "https://netbootcamp.org/websitetool.html"
+                        }
+                    ]
+                }
+            ]
+        },
+        "🗝 Cryptography": {
+            "entries": [
+                {
+                    "name": "DCode.fr",
+                    "url": "https://www.dcode.fr/tools-list#cryptography",
+                    "favorite": true
+                }
+            ]
+        },
+        "📷 Images": {
+            "entries": [
+                {
+                    "name": "FotoForensics",
+                    "url": "http://fotoforensics.com/",
+                    "favorite": true
+                }
+            ]
+        },
+        "🔎 OSInt": {
+            "entries": [
+                {
+                    "name": "Hunter.io",
+                    "url": "https://hunter.io/"
+                },
+                {
+                    "name": "haveibeenpwned.com",
+                    "url": "https://haveibeenpwned.com/"
+                }
+            ],
+            "subgroups": [
+                {
+                    "name": "Social Media",
+                    "entries": [
+                        {
+                            "name": "Twitter",
+                            "url": "https://search.twitter.com/"
+                        },
+                        {
+                            "name": "Snapchat Map",
+                            "url": "https://map.snapchat.com/"
+                        }
+                    ]
+                },
+                {
+                    "name": "Public Records",
+                    "entries": [
+                        {
+                            "name": "SearchSystems.net",
+                            "url": "http://publicrecords.searchsystems.net/"
+                        }
+                    ]
+                }
+            ]
+        },
+        "🗿 Alternate Search": {
+            "entries": [
+                {
+                    "name": "Million Short",
+                    "url": "https://millionshort.com/",
+                },
+                {
+                    "name": "Wiby",
+                    "url": "https://wiby.me/",
+                }
+            ]
+        },
+        "👩‍💻 Code": {
+            "entries": [
+                {
+                    "name": "JSNice",
+                    "url": "http://jsnice.org/"
+                }
+            ],
+            "subgroups": [
+                {
+                    "name": "Search",
+                    "entries": [
+                        {
+                            "name": "PublicWWW",
+                            "url": "https://publicwww.com/"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Reverse Engineering": {
+            "entries": [
+                {
+                    "name": "Binary Ninja",
+                    "url": "https://cloud.binary.ninja/"
+                }
+            ],
+            "subgroups": [
+                {
+                    "name": "Search",
+                    "entries": [
+                        {
+                            "name": "Binvis",
+                            "url": "https://binvis.io/"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "cheats": {
+        "Misc": [
+            {"name":"Helpful Linux CTF Commands", "url": "https://www.tunnelsup.com/helpful-linux-commands-for-ctfs/"},
+            {"name":"OSCP Survival Guide", "url": "https://h4ck.co/wp-content/uploads/2018/06/cheatsheet.txt"}
+        ],
+        "Explots": [
+            {"name":"Linux elevation of privileges", "url": "https://guif.re/linuxeop"},
+            {"name":"https://guif.re/linuxeop", "url": "https://guif.re/linuxeop"}
+        ],
+        "OSINT General": [
+            {"name":"OSINT Framework", "url": "https://osintframework.com/"},
+        ],
+        "OSINT Geographic": [
+            {"name":"ArkansasVoters", "url": "https://arkvoters.com/"},
+            {"name":"ColoradoVoters", "url": "https://coloradovoters.info/"},
+            {"name":"ConnVoters", "url": "http://connvoters.com/"},
+            {"name":"DelawareVoters", "url": "https://delawarevoters.info/"},
+            {"name":"FloridaVoters", "url": "https://flvoters.com/"},
+            {"name":"MichiganVoters", "url": "https://michiganvoters.info/"},
+            {"name":"OhioVoters", "url": "http://ohiovoters.us/"},
+            {"name":"OklaVoters", "url": "https://oklavoters.com/"},
+            {"name":"RhodeIslandVoters", "url": "https://rivoters.com/"}
+        ]
+    }
+}

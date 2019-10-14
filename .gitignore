@@ -1,0 +1,25 @@
+.vscode/
+.idea/
+node_modules/
+tmp/
+dist/
+build/
+_docs/
+src/theme/assets/js/landing/*.js
+_packages/
+Thumbs.db
+
+# We only care about .less files
+*.css
+
+# Use example.config.local.json to craft your own; don't commit it :P
+config.local*.json
+
+# Large original backups of site assets that are stored elsewhere (files.ii)
+/_assets/_archive
+
+~*.docx
+
+# Just gotta remove the whole thing. Damn it.
+/_assets/
+
