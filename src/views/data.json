@@ -167,9 +167,11 @@
             {"name":"Helpful Linux CTF Commands", "url": "https://www.tunnelsup.com/helpful-linux-commands-for-ctfs/"},
             {"name":"OSCP Survival Guide", "url": "https://h4ck.co/wp-content/uploads/2018/06/cheatsheet.txt"}
         ],
-        "Explots": [
+        "Privilege Escalation": [
             {"name":"Linux elevation of privileges", "url": "https://guif.re/linuxeop"},
             {"name":"https://guif.re/linuxeop", "url": "https://guif.re/linuxeop"}
+        ],
+        "Explots": [
         ],
         "OSINT General": [
             {"name":"OSINT Framework", "url": "https://osintframework.com/"},
