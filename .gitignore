@@ -10,7 +10,8 @@ _packages/
 Thumbs.db
 
 # We only care about .less files
-*.css
+#*.css
+
 
 # Use example.config.local.json to craft your own; don't commit it :P
 config.local*.json
