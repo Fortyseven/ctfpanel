@@ -12,19 +12,19 @@
 @ega-ltmagenta:#FF55FF;
 
 body {
-  font-family: sans-serif;
-  background: #222;
-  color: #888;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    font-family: sans-serif;
+    background: #222;
+    color: #888;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 /***Utils****************************************************/
 .clear {
-  clear: both;
+    clear: both;
 }
 .justify {
-  text-align: justify;
+    text-align: justify;
 }
 
 body {
@@ -71,56 +71,81 @@ a {
     background-color: #222;
     padding: 0.25em 0.5em;
     min-width: 3em;
-}
-li:first-of-type {
-    margin-left: 0;
-}
-a:hover {
-    background-color: #444;
+    cursor:pointer;
 }
 
-#Cheats details,
-#Links section {
-    flex: 1 1 auto;
+main {
+    #Links, #Cheats {
+        li:first-of-type {
+            margin-left: 0;
+        }
+        a:hover {
+            background-color: #444;
+        }
+        .common a {
+            background-color: #303;
+        }
+        .common a:hover {
+            background-color: #404;
+        }
+        .common a::before {
+            content: "⭐";
+            font-size: 0.9em;
+            line-height: 0;
+        }
+    }
+
+    #Cheats details,
+    #Links section {
+        flex: 1 1 auto;
+    }
+
+    #Links {
+        display: flex;
+        flex-wrap: wrap;
+        section {
+            background-color: #181818;
+            box-shadow: 0 0 10px black;
+            border-radius: 10px;
+            padding: 1em;
+            margin: 0.5em;
+        }
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            flex: 0 1 auto;
+            margin: 0.5em 0.25em;
+        }
+    }
 }
 
-#Links {
-  display: flex;
-  flex-wrap: wrap;
-  section {
-    background-color: #181818;
-    box-shadow: 0 0 10px black;
-    border-radius: 10px;
-    padding: 1em;
-    margin: 0.5em;
-  }
-}
-
-#Cheats ul,
-#Links ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    li {
-      flex: 0 1 auto;
-      margin: 0.5em 0.25em;
-  }
-}
-
-.common a {
-    background-color: #303;
-}
-.common a:hover {
-    background-color: #404;
-}
-.common a::before {
-    content: "⭐";
-    font-size: 0.9em;
-    line-height: 0;
-}
-
-#Cheats {
-
+#PopupContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    z-index: 999;
+    display: none;
+    &.open {
+        display: block;
+    }
+    .content {
+        cursor: pointer;
+    }
+    .img {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        background-position: center;
+        background-size:contain;
+        background-repeat:no-repeat;
+    }
 }

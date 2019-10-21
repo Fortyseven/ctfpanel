@@ -5,12 +5,15 @@
                 {
                     "name": "CyberChef",
                     "url": "https://gchq.github.io/CyberChef/",
-                    "favorite": true
                 },
                 {
                     "name": "Binvis",
                     "url": "https://binvis.io/#/",
-                    "favorite": false
+                },
+                {
+                    "name": "ASCII Table",
+                    "url": "assets/images/ascii-table.svg",
+                    "type": "popup-image"
                 }
             ]
         },
@@ -31,6 +34,10 @@
                 {
                     "name": "Threatcrowd",
                     "url": "https://www.threatcrowd.org/"
+                },
+                {
+                    "name": "ZoomEye",
+                    "url": "https://www.zoomeye.org/"
                 }
             ],
             "subgroups": [
@@ -78,7 +85,7 @@
         "🔎 OSInt": {
             "entries": [
                 {
-                    "name": "Hunter.io",
+                    "name": "Hunter.io (Email)",
                     "url": "https://hunter.io/"
                 },
                 {
@@ -123,11 +130,16 @@
                 }
             ]
         },
-        "👩‍💻 Code": {
+        "‍👩‍💻 Code & Reverse Engineering": {
             "entries": [
                 {
+                    "name": "Binary Ninja",
+                    "url": "https://cloud.binary.ninja/"
+                },
+                {
                     "name": "JSNice",
-                    "url": "http://jsnice.org/"
+                    "url": "http://jsnice.org/",
+                    "alt": "Statistical renaming, Type inference and Deobfuscation"
                 }
             ],
             "subgroups": [
@@ -141,25 +153,6 @@
                     ]
                 }
             ]
-        },
-        "Reverse Engineering": {
-            "entries": [
-                {
-                    "name": "Binary Ninja",
-                    "url": "https://cloud.binary.ninja/"
-                }
-            ],
-            "subgroups": [
-                {
-                    "name": "Search",
-                    "entries": [
-                        {
-                            "name": "Binvis",
-                            "url": "https://binvis.io/"
-                        }
-                    ]
-                }
-            ]
         }
     },
     "cheats": {
@@ -169,9 +162,14 @@
         ],
         "Privilege Escalation": [
             {"name":"Linux elevation of privileges", "url": "https://guif.re/linuxeop"},
-            {"name":"https://guif.re/linuxeop", "url": "https://guif.re/linuxeop"}
         ],
         "Explots": [
+            {"name":"Exploit DB", "url": "https://www.exploit-db.com/"},
+            {"name":"Exploit DB: Google Hacking Database", "url": "https://www.exploit-db.com/google-hacking-database"},
+            {"name":"CVE Search", "url": "https://cve.mitre.org/cve/search_cve_list.html"},
+            {"name":"Packet Storm", "url": "https://packetstormsecurity.com/search"},
+            {"name":"CVE Details", "url": "https://www.cvedetails.com/"},
+            {"name":"WordPress Vuln Database", "url": "https://wpvulndb.com/"},
         ],
         "OSINT General": [
             {"name":"OSINT Framework", "url": "https://osintframework.com/"},
@@ -187,5 +185,12 @@
             {"name":"OklaVoters", "url": "https://oklavoters.com/"},
             {"name":"RhodeIslandVoters", "url": "https://rivoters.com/"}
         ]
+    },
+    "popups": {
+        "ascii_table": {
+            "name": "ASCII Table",
+            "type": "svg",
+            "src": "assets/images/ascii-table.svg"
+        }
     }
 }

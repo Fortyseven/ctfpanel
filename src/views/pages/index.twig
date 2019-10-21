@@ -1,5 +1,33 @@
 {% extends "../_layouts/html.twig" %}
+
+{# #################################### #}
+
+{% macro link_render( entry ) %}
+    {% if entry.type == "popup-image" %}
+        <a
+            {% if entry.alt %}title="{{entry.alt}}"{% endif %}
+            onclick="openPopupImage('{{entry.url}}')"
+        >
+            💬 {{entry.name}}
+        </a>
+    {% else %}
+        <a
+            {% if entry.alt %}title="{{entry.alt}}"{% endif %}
+            href="{{entry.url}}"
+        >
+            {{entry.name}}
+        </a>
+    {% endif %}
+{% endmacro %}
+
+{# #################################### #}
+
+{% import _self as utils %}
+
+{# #################################### #}
+
 {% block content %}
+<main>
     <div id="Links">
     {% for section_name, object in sections %}
         <section>
@@ -7,7 +35,7 @@
             <ul>
                 {% for entry in object.entries %}
                     <li {% if entry.favorite %}class="common"{% endif %}>
-                        <a href="{{entry.url}}">{{entry.name}}</a>
+                        {{ utils.link_render(entry) }}
                     </li>
                 {% endfor %}
             </ul>
@@ -17,7 +45,7 @@
                     <ul>
                         {% for entry in subgroup.entries %}
                             <li {% if entry.favorite %}class="common"{% endif %}>
-                                <a href="{{entry.url}}">{{entry.name}}</a>
+                                {{ utils.link_render(entry) }}
                             </li>
                         {% endfor %}
                     </ul>
@@ -28,18 +56,24 @@
     </div>
 
     <hr />
+
     <div id="Cheats">
         <h1>Cheat Sheets</h1>
         {% for cheat_name, cheat_links in cheats %}
-        <details>
+        <details open>
             <summary>{{cheat_name}}</summary>
             <ul>
                 {% for link in cheat_links %}
-                    <li><a href="{{link.url}}">{{link.name}}</a></li>
+                    <li>
+                        {{ utils.link_render(link) }}
+                    </li>
                 {% endfor %}
             </ul>
         </details>
         {% endfor %}
     </div>
-
+</main>
+<div id="PopupContainer" onclick="closePopup()">
+    <div class="content"></div>
+</div>
 {% endblock content %}
