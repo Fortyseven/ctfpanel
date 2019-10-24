@@ -1,14 +1,16 @@
 {
     "sections": {
-        "🔧 General": {
+        "🔧 General/Common": {
             "entries": [
                 {
                     "name": "CyberChef",
                     "url": "https://gchq.github.io/CyberChef/",
+                    "alt": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
                 },
                 {
                     "name": "Binvis",
                     "url": "https://binvis.io/#/",
+                    "alt": "Visual binary analysis"
                 },
                 {
                     "name": "ASCII Table",
@@ -21,19 +23,17 @@
             "entries": [
                 {
                     "name": "Shodan",
-                    "url": "https://www.shodan.io/"
+                    "url": "https://www.shodan.io/",
+                    "alt": "The world's first search engine for Internet-connected devices"
                 },
                 {
                     "name": "Greynoise",
                     "url": "https://viz.greynoise.io/"
                 },
                 {
-                    "name": "Wigl",
-                    "url": "https://wigle.net/"
-                },
-                {
-                    "name": "Threatcrowd",
-                    "url": "https://www.threatcrowd.org/"
+                    "name": "Wigle",
+                    "url": "https://wigle.net/",
+                    "alt": "Wireless Network Mapping"
                 },
                 {
                     "name": "ZoomEye",
@@ -45,20 +45,39 @@
                     "name": "Domains",
                     "entries": [
                         {
+                            "name": "Website Investigation",
+                            "url": "https://netbootcamp.org/websitetool.html",
+                            "alt": "Launch page for multiple search engines"
+                        },
+                        {
                             "name": "WhoXY",
-                            "url": "https://www.whoxy.com/"
+                            "url": "https://www.whoxy.com/",
+                            "alt": "Whois API / Whois History / Reverse Whois"
                         },
                         {
                             "name": "Whois History",
-                            "url": "https://whois-history-api.whoisxmlapi.com/"
+                            "url": "https://whois-history-api.whoisxmlapi.com/",
+                            "alt": "...view relevant historical WHOIS records"
                         },
                         {
                             "name": "urlscan.io",
-                            "url": "https://urlscan.io/"
+                            "url": "https://urlscan.io/",
+                            "alt": "...service to scan and analyse websites"
+                        }
+                    ]
+                },
+                {
+                    "name": "Threat",
+                    "entries": [
+                        {
+                            "name": "OPSwat",
+                            "url": "https://metadefender.opswat.com/",
+                            "alt": "...identify, detect, and remediate advanced security threats from data and devices coming into and out of enterprise networks"
                         },
                         {
-                            "name": "Website Investigation",
-                            "url": "https://netbootcamp.org/websitetool.html"
+                            "name": "Threatcrowd",
+                            "url": "https://www.threatcrowd.org/",
+                            "alt": "Search Engine for Threats"
                         }
                     ]
                 }
@@ -69,6 +88,7 @@
                 {
                     "name": "DCode.fr",
                     "url": "https://www.dcode.fr/tools-list#cryptography",
+                    "alt": "Everything crypto",
                     "favorite": true
                 }
             ]
@@ -78,7 +98,10 @@
                 {
                     "name": "FotoForensics",
                     "url": "http://fotoforensics.com/",
-                    "favorite": true
+                },
+                {
+                    "name": "Forensically",
+                    "url": "https://29a.ch/photo-forensics/",
                 }
             ]
         },
@@ -157,33 +180,106 @@
     },
     "cheats": {
         "Misc": [
-            {"name":"Helpful Linux CTF Commands", "url": "https://www.tunnelsup.com/helpful-linux-commands-for-ctfs/"},
-            {"name":"OSCP Survival Guide", "url": "https://h4ck.co/wp-content/uploads/2018/06/cheatsheet.txt"}
+            {
+                "name": "Helpful Linux CTF Commands",
+                "url": "https://www.tunnelsup.com/helpful-linux-commands-for-ctfs/"
+            },
+            {
+                "name": "OSCP Survival Guide",
+                "url": "https://h4ck.co/wp-content/uploads/2018/06/cheatsheet.txt"
+            },
+            {
+                "name": "CTF Field Guide",
+                "url": "https://trailofbits.github.io/ctf/"
+            },
+            {
+                "name": "CTF Katana",
+                "url": "https://github.com/JohnHammond/ctf-katana"
+            },
+            {
+                "name": "CTF Forensics",
+                "url": "https://trailofbits.github.io/ctf/forensics/"
+            }
         ],
         "Privilege Escalation": [
-            {"name":"Linux elevation of privileges", "url": "https://guif.re/linuxeop"},
+            {
+                "name": "Linux elevation of privileges",
+                "url": "https://guif.re/linuxeop"
+            },
         ],
         "Explots": [
-            {"name":"Exploit DB", "url": "https://www.exploit-db.com/"},
-            {"name":"Exploit DB: Google Hacking Database", "url": "https://www.exploit-db.com/google-hacking-database"},
-            {"name":"CVE Search", "url": "https://cve.mitre.org/cve/search_cve_list.html"},
-            {"name":"Packet Storm", "url": "https://packetstormsecurity.com/search"},
-            {"name":"CVE Details", "url": "https://www.cvedetails.com/"},
-            {"name":"WordPress Vuln Database", "url": "https://wpvulndb.com/"},
+            {
+                "name": "Exploit DB",
+                "url": "https://www.exploit-db.com/"
+            },
+            {
+                "name": "Exploit DB: Google Hacking Database",
+                "url": "https://www.exploit-db.com/google-hacking-database"
+            },
+            {
+                "name": "CVE Search",
+                "url": "https://cve.mitre.org/cve/search_cve_list.html"
+            },
+            {
+                "name": "Packet Storm",
+                "url": "https://packetstormsecurity.com/search"
+            },
+            {
+                "name": "CVE Details",
+                "url": "https://www.cvedetails.com/"
+            },
+            {
+                "name": "WordPress Vuln Database",
+                "url": "https://wpvulndb.com/"
+            },
         ],
         "OSINT General": [
-            {"name":"OSINT Framework", "url": "https://osintframework.com/"},
+            {
+                "name": "OSINT Framework",
+                "url": "https://osintframework.com/"
+            },
+            {
+                "name": "Awesome OSINT",
+                "url": "https://github.com/jivoi/awesome-osint"
+            }
         ],
         "OSINT Geographic": [
-            {"name":"ArkansasVoters", "url": "https://arkvoters.com/"},
-            {"name":"ColoradoVoters", "url": "https://coloradovoters.info/"},
-            {"name":"ConnVoters", "url": "http://connvoters.com/"},
-            {"name":"DelawareVoters", "url": "https://delawarevoters.info/"},
-            {"name":"FloridaVoters", "url": "https://flvoters.com/"},
-            {"name":"MichiganVoters", "url": "https://michiganvoters.info/"},
-            {"name":"OhioVoters", "url": "http://ohiovoters.us/"},
-            {"name":"OklaVoters", "url": "https://oklavoters.com/"},
-            {"name":"RhodeIslandVoters", "url": "https://rivoters.com/"}
+            {
+                "name": "ArkansasVoters",
+                "url": "https://arkvoters.com/"
+            },
+            {
+                "name": "ColoradoVoters",
+                "url": "https://coloradovoters.info/"
+            },
+            {
+                "name": "ConnVoters",
+                "url": "http://connvoters.com/"
+            },
+            {
+                "name": "DelawareVoters",
+                "url": "https://delawarevoters.info/"
+            },
+            {
+                "name": "FloridaVoters",
+                "url": "https://flvoters.com/"
+            },
+            {
+                "name": "MichiganVoters",
+                "url": "https://michiganvoters.info/"
+            },
+            {
+                "name": "OhioVoters",
+                "url": "http://ohiovoters.us/"
+            },
+            {
+                "name": "OklaVoters",
+                "url": "https://oklavoters.com/"
+            },
+            {
+                "name": "RhodeIslandVoters",
+                "url": "https://rivoters.com/"
+            }
         ]
     },
     "popups": {
