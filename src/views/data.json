@@ -102,6 +102,11 @@
                 {
                     "name": "Forensically",
                     "url": "https://29a.ch/photo-forensics/",
+                },
+                {
+                    "name": "Steganography Online",
+                    "url": "https://stylesuxx.github.io/steganography/",
+                    "alt": "For decoding bit data encoded in the even/odd RGB values"
                 }
             ]
         },
