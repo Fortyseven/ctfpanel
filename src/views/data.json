@@ -16,6 +16,11 @@
                     "name": "ASCII Table",
                     "url": "assets/images/ascii-table.svg",
                     "type": "popup-image"
+                },
+                {
+                    "name": "Hex Editor",
+                    "url": "https://hexed.it/",
+                    "alt": "Online hex editor"
                 }
             ]
         },
@@ -132,6 +137,10 @@
                         {
                             "name": "Snapchat Map",
                             "url": "https://map.snapchat.com/"
+                        },
+                        {
+                            "name": "craigslist",
+                            "url": "https://craigslist.org/"
                         }
                     ]
                 },
@@ -141,6 +150,15 @@
                         {
                             "name": "SearchSystems.net",
                             "url": "http://publicrecords.searchsystems.net/"
+                        },
+                        {
+                            "name": "BBB",
+                            "url": "https://www.bbb.org/"
+                        },
+                        {
+                            "name": "qPublic.net",
+                            "url": "https://qpublic.schneidercorp.com/",
+                            "alt": "...public access portals that allow users to view County and City information, public records and Geographical Information Systems (GIS)."
                         }
                     ]
                 }
@@ -248,7 +266,7 @@
                 "url": "https://github.com/jivoi/awesome-osint"
             }
         ],
-        "OSINT Geographic": [
+        "OSINT Geographic Specific Searches": [
             {
                 "name": "ArkansasVoters",
                 "url": "https://arkvoters.com/"
