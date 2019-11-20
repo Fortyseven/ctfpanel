@@ -227,6 +227,10 @@
             {
                 "name": "CTF Forensics",
                 "url": "https://trailofbits.github.io/ctf/forensics/"
+            },
+            {
+                "name": "Explain Shell",
+                "url": "https://explainshell.com/"
             }
         ],
         "Privilege Escalation": [
