@@ -46,7 +46,7 @@
                 },
                 {
                     "name": "GetLinkInfo",
-                    "url": "https://www.getlinkinfo.com/"
+                    "url": "http://getlinkinfo.com/"
                 }
             ],
             "subgroups": [
