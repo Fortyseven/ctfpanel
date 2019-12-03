@@ -43,6 +43,10 @@
                 {
                     "name": "ZoomEye",
                     "url": "https://www.zoomeye.org/"
+                },
+                {
+                    "name": "GetLinkInfo",
+                    "url": "https://www.getlinkinfo.com/"
                 }
             ],
             "subgroups": [
