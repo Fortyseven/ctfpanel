@@ -136,8 +136,20 @@
                     "url": "https://hunter.io/"
                 },
                 {
-                    "name": "haveibeenpwned.com",
+                    "name": "crt.sh",
+                    "url": "https://crt.sh/"
+                },
+                {
+                    "name": "haveibeenpwned",
                     "url": "https://haveibeenpwned.com/"
+                },
+                {
+                    "name": "Netcraft",
+                    "url": "https://toolbar.netcraft.com/site_report?url=https://www.netcraft.com"
+                },
+                {
+                    "name": "Built With",
+                    "url": "https://builtwith.com/"
                 }
             ],
             "subgroups": [
