@@ -180,7 +180,10 @@
             },
             "🔧 Utilities": {
                 "entries": [
-                    {"name": "anonfiles.com", "url": "https://anonfiles.com/"}
+                    {
+                        "name": "anonfiles.com",
+                        "url": "https://anonfiles.com/"
+                    }
                 ]
             }
         },
@@ -204,10 +207,6 @@
             "Social Media": {
                 "entries": [
                     {
-                        "name": "Twitter",
-                        "url": "https://search.twitter.com/"
-                    },
-                    {
                         "name": "Snapchat Map",
                         "url": "https://map.snapchat.com/"
                     },
@@ -215,6 +214,56 @@
                         "name": "craigslist",
                         "url": "https://craigslist.org/"
                     }
+                ],
+                "subgroups": [
+                    {
+                        "name": "Twitter",
+                        "entries": [
+                            {
+                                "name": "Twitter Search",
+                                "url": "https://search.twitter.com/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Facebook",
+                        "entries": [
+                            {
+                                "name": "graph.tips",
+                                "url": "https://graph.tips/beta/"
+                            },
+                            {
+                                "name": "Who Posted What?",
+                                "url": "https://whopostedwhat.com/"
+                            },
+                            {
+                                "name": "fbdown.net",
+                                "url": "https://fbdown.net/",
+                                "alt": "Download Facebook videos given a video link"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instagram",
+                        "entries": [
+                            {
+                                "name": "GramFly",
+                                "url": "https://gramfly.com/",
+                                "alt": "View Interactions & Activity of Instagram Users"
+                            },
+                            {
+                                "name": "StoriesIG",
+                                "url": "https://storiesig.com/",
+                                "alt": "Save the stories of your favorite users before they are deleted"
+                            },
+                            {
+                                "name": "ISDB.pw",
+                                "url": "https://isdb.pw/save-instagram-stories.html",
+                                "alt": "We save Instagram stories for you, and now you can go back in time and find past story!"
+                            },
+                        ]
+                    }
+
                 ]
             },
             "Public Records": {
@@ -267,8 +316,8 @@
             "🚢 Misc Transit": {
                 "entries": [
                     {
-                        "name":"Track-Trace",
-                        "url":"https://www.track-trace.com/",
+                        "name": "Track-Trace",
+                        "url": "https://www.track-trace.com/",
                         "alt": "Easy access to tracking data (packages, shipping containers, etc)"
                     },
                     {
@@ -278,7 +327,6 @@
                     }
                 ]
             }
-
         }
     },
     "cheats": {
