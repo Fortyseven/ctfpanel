@@ -16,6 +16,7 @@
 @deus-background: #111;
 
 @font-secondary: "Roboto Condensed", sans-serif;
+
 body {
     font-family: sans-serif;
     background: @deus-background;
@@ -109,18 +110,6 @@ main {
         flex: 1 1 auto;
     }
 
-    #Links {
-        display: flex;
-        flex-wrap: wrap;
-        section {
-            background-color: #181818;
-            box-shadow: 0 0 10px black;
-            border-radius: 10px;
-            padding: 1em;
-            margin: 0.5em;
-        }
-    }
-
     ul {
         list-style: none;
         margin: 0;
@@ -156,5 +145,62 @@ main {
         background-position: center;
         background-size:contain;
         background-repeat:no-repeat;
+    }
+}
+
+tabselector {
+    display: block;
+    button {
+        font-family: @font-secondary;
+        background: linear-gradient(180deg,
+            @deus-cyan/4 0%,
+            @deus-cyan 100%);
+        border: 0;
+        padding: 0.5em;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        color: @deus-cyan*1.25;
+        cursor: pointer;
+        &:hover {
+            background: linear-gradient(180deg,
+                @deus-cyan/2 0%,
+                @deus-cyan 100%);
+        }
+        &.selected {
+            background: @deus-cyan;
+            color: black;
+            text-shadow: 0 0 10px white;
+            box-shadow: 0 0 15px black;
+        }
+    }
+    background: linear-gradient(0deg,
+                        @deus-background 0%,
+                        @deus-cyan/3 100%);
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+tabpage {
+    display: none;
+
+    // so at least we can see the main page if javascript is broken...
+    &:first-of-type {
+        display: block;
+    }
+}
+
+pagecontent {
+    display: flex;
+    flex-wrap: wrap;
+    section {
+        background-color: #181818;
+        box-shadow: 0 0 10px black;
+        border-radius: 10px;
+        padding: 1em;
+        margin: 0.5em;
+        flex: 1 1 auto;
+    }
+    &.noflex {
+        display:block;
     }
 }

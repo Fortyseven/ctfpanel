@@ -1,0 +1,26 @@
+<pagecontent>
+    {% for section_name, object in sections.osint %}
+        <section>
+            <h1>{{section_name}}</h1>
+            <ul>
+                {% for entry in object.entries %}
+                    <li {% if entry.favorite %}class="common"{% endif %}>
+                        {{ utils.link_render(entry) }}
+                    </li>
+                {% endfor %}
+            </ul>
+            {% if object.subgroups %}
+                {% for subgroup in object.subgroups %}
+                    <h2>{{subgroup.name}}</h2>
+                    <ul>
+                        {% for entry in subgroup.entries %}
+                            <li {% if entry.favorite %}class="common"{% endif %}>
+                                {{ utils.link_render(entry) }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endfor %}
+            {% endif %}
+        </section>
+    {% endfor %}
+</pagecontent>

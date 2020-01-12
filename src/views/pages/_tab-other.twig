@@ -1,0 +1,17 @@
+<pagecontent class="noflex">
+    <section>
+    <h1>Other</h1>
+        {% for cheat_name, cheat_links in cheats %}
+        <details open>
+            <summary>{{cheat_name}}</summary>
+            <ul>
+                {% for link in cheat_links %}
+                    <li>
+                        {{ utils.link_render(link) }}
+                    </li>
+                {% endfor %}
+            </ul>
+        </details>
+        {% endfor %}
+    </section>
+</pagecontent>

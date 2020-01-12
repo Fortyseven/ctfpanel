@@ -18,7 +18,13 @@
 <!-- #################################################### -->
     <div id="Content">
         <main>
-    <div id="Links">
+    <tabselector>
+        <button data-for-tab="main">⭐ Main</button>
+        <button data-for-tab="osint">🔎 OSINT</button>
+        <button data-for-tab="other">🐙 Other</button>
+    </tabselector>
+    <tabpage id="main">
+        <pagecontent>
             <section>
             <h1>🔧 General/Common</h1>
             <ul>
@@ -150,6 +156,14 @@
         </a>
     
                             </li>
+                                                    <li >
+                                            <a
+                        href="https://crt.sh/"
+        >
+            crt.sh
+        </a>
+    
+                            </li>
                                             </ul>
                                     <h2>Threat</h2>
                     <ul>
@@ -214,21 +228,70 @@
                             </ul>
                     </section>
             <section>
-            <h1>🔎 OSInt</h1>
+            <h1>🗿 Alternate Search</h1>
+            <ul>
+                                    <li >
+                                    <a
+                        href="https://millionshort.com/"
+        >
+            Million Short
+        </a>
+    
+                    </li>
+                                    <li >
+                                    <a
+                        href="https://wiby.me/"
+        >
+            Wiby
+        </a>
+    
+                    </li>
+                            </ul>
+                    </section>
+            <section>
+            <h1>‍👩‍💻 Code & Reverse Engineering</h1>
+            <ul>
+                                    <li >
+                                    <a
+                        href="https://cloud.binary.ninja/"
+        >
+            Binary Ninja
+        </a>
+    
+                    </li>
+                                    <li >
+                                    <a
+            title="Statistical renaming, Type inference and Deobfuscation"            href="http://jsnice.org/"
+        >
+            JSNice
+        </a>
+    
+                    </li>
+                            </ul>
+                                                <h2>Search</h2>
+                    <ul>
+                                                    <li >
+                                            <a
+                        href="https://publicwww.com/"
+        >
+            PublicWWW
+        </a>
+    
+                            </li>
+                                            </ul>
+                                    </section>
+    </pagecontent>
+    </tabpage>
+    <tabpage id="osint">
+        <pagecontent>
+            <section>
+            <h1>OSINT</h1>
             <ul>
                                     <li >
                                     <a
                         href="https://hunter.io/"
         >
             Hunter.io (Email)
-        </a>
-    
-                    </li>
-                                    <li >
-                                    <a
-                        href="https://crt.sh/"
-        >
-            crt.sh
         </a>
     
                     </li>
@@ -320,66 +383,12 @@
                             </li>
                                             </ul>
                                     </section>
-            <section>
-            <h1>🗿 Alternate Search</h1>
-            <ul>
-                                    <li >
-                                    <a
-                        href="https://millionshort.com/"
-        >
-            Million Short
-        </a>
-    
-                    </li>
-                                    <li >
-                                    <a
-                        href="https://wiby.me/"
-        >
-            Wiby
-        </a>
-    
-                    </li>
-                            </ul>
-                    </section>
-            <section>
-            <h1>‍👩‍💻 Code & Reverse Engineering</h1>
-            <ul>
-                                    <li >
-                                    <a
-                        href="https://cloud.binary.ninja/"
-        >
-            Binary Ninja
-        </a>
-    
-                    </li>
-                                    <li >
-                                    <a
-            title="Statistical renaming, Type inference and Deobfuscation"            href="http://jsnice.org/"
-        >
-            JSNice
-        </a>
-    
-                    </li>
-                            </ul>
-                                                <h2>Search</h2>
-                    <ul>
-                                                    <li >
-                                            <a
-                        href="https://publicwww.com/"
-        >
-            PublicWWW
-        </a>
-    
-                            </li>
-                                            </ul>
-                                    </section>
-        </div>
-
-    <hr />
-
-    <div id="Cheats">
-        <h1>Other</h1>
-                <details>
+    </pagecontent>    </tabpage>
+    <tabpage id="other">
+        <pagecontent class="noflex">
+    <section>
+    <h1>Other</h1>
+                <details open>
             <summary>Misc</summary>
             <ul>
                                     <li>
@@ -432,7 +441,7 @@
                     </li>
                             </ul>
         </details>
-                <details>
+                <details open>
             <summary>Privilege Escalation</summary>
             <ul>
                                     <li>
@@ -445,7 +454,7 @@
                     </li>
                             </ul>
         </details>
-                <details>
+                <details open>
             <summary>Explots</summary>
             <ul>
                                     <li>
@@ -514,7 +523,7 @@
                     </li>
                             </ul>
         </details>
-                <details>
+                <details open>
             <summary>OSINT General</summary>
             <ul>
                                     <li>
@@ -535,7 +544,7 @@
                     </li>
                             </ul>
         </details>
-                <details>
+                <details open>
             <summary>OSINT Geographic Specific Searches</summary>
             <ul>
                                     <li>
@@ -612,7 +621,8 @@
                     </li>
                             </ul>
         </details>
-            </div>
+            </section>
+</pagecontent>    </tabpage>
 </main>
 <div id="PopupContainer" onclick="closePopup()">
     <div class="content"></div>
@@ -626,6 +636,7 @@
 </footer>
 <!-- #################################################### -->
  
+    <script src="assets/scripts/zepto120.js"></script>
     <script src="assets/scripts/main.js"></script>
 </body>
 </html>

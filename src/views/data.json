@@ -1,236 +1,239 @@
 {
     "sections": {
-        "🔧 General/Common": {
-            "entries": [
-                {
-                    "name": "CyberChef",
-                    "url": "https://gchq.github.io/CyberChef/",
-                    "alt": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
-                },
-                {
-                    "name": "Binvis",
-                    "url": "https://binvis.io/#/",
-                    "alt": "Visual binary analysis"
-                },
-                {
-                    "name": "ASCII Table",
-                    "url": "assets/images/ascii-table.svg",
-                    "type": "popup-image"
-                },
-                {
-                    "name": "Hex Editor",
-                    "url": "https://hexed.it/",
-                    "alt": "Online hex editor"
-                }
-            ]
+        "main": {
+            "🔧 General/Common": {
+                "entries": [
+                    {
+                        "name": "CyberChef",
+                        "url": "https://gchq.github.io/CyberChef/",
+                        "alt": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
+                    },
+                    {
+                        "name": "Binvis",
+                        "url": "https://binvis.io/#/",
+                        "alt": "Visual binary analysis"
+                    },
+                    {
+                        "name": "ASCII Table",
+                        "url": "assets/images/ascii-table.svg",
+                        "type": "popup-image"
+                    },
+                    {
+                        "name": "Hex Editor",
+                        "url": "https://hexed.it/",
+                        "alt": "Online hex editor"
+                    }
+                ]
+            },
+            "🌍 Network": {
+                "entries": [
+                    {
+                        "name": "Shodan",
+                        "url": "https://www.shodan.io/",
+                        "alt": "The world's first search engine for Internet-connected devices"
+                    },
+                    {
+                        "name": "Greynoise",
+                        "url": "https://viz.greynoise.io/"
+                    },
+                    {
+                        "name": "Wigle",
+                        "url": "https://wigle.net/",
+                        "alt": "Wireless Network Mapping"
+                    },
+                    {
+                        "name": "ZoomEye",
+                        "url": "https://www.zoomeye.org/"
+                    },
+                    {
+                        "name": "GetLinkInfo",
+                        "url": "http://getlinkinfo.com/"
+                    }
+                ],
+                "subgroups": [
+                    {
+                        "name": "Domains",
+                        "entries": [
+                            {
+                                "name": "Website Investigation",
+                                "url": "https://netbootcamp.org/websitetool.html",
+                                "alt": "Launch page for multiple search engines"
+                            },
+                            {
+                                "name": "WhoXY",
+                                "url": "https://www.whoxy.com/",
+                                "alt": "Whois API / Whois History / Reverse Whois"
+                            },
+                            {
+                                "name": "Whois History",
+                                "url": "https://whois-history-api.whoisxmlapi.com/",
+                                "alt": "...view relevant historical WHOIS records"
+                            },
+                            {
+                                "name": "urlscan.io",
+                                "url": "https://urlscan.io/",
+                                "alt": "...service to scan and analyse websites"
+                            },
+                            {
+                                "name": "Robtex",
+                                "url": "https://robtex.com/",
+                                "alt": "Robtex is used for various kinds of research of IP numbers, Domain names, etc"
+                            },
+                            {
+                                "name": "Security Trails",
+                                "url": "https://securitytrails.com/",
+                                "alt": "Tap into a treasure-trove of cyber security gold for info you can’t find anywhere else."
+                            },
+                            {
+                                "name": "crt.sh",
+                                "url": "https://crt.sh/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Threat",
+                        "entries": [
+                            {
+                                "name": "OPSwat",
+                                "url": "https://metadefender.opswat.com/",
+                                "alt": "...identify, detect, and remediate advanced security threats from data and devices coming into and out of enterprise networks"
+                            },
+                            {
+                                "name": "Threatcrowd",
+                                "url": "https://www.threatcrowd.org/",
+                                "alt": "Search Engine for Threats"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "🗝 Cryptography": {
+                "entries": [
+                    {
+                        "name": "DCode.fr",
+                        "url": "https://www.dcode.fr/tools-list#cryptography",
+                        "alt": "Everything crypto",
+                        "favorite": true
+                    }
+                ]
+            },
+            "📷 Images": {
+                "entries": [
+                    {
+                        "name": "FotoForensics",
+                        "url": "http://fotoforensics.com/",
+                    },
+                    {
+                        "name": "Forensically",
+                        "url": "https://29a.ch/photo-forensics/",
+                    },
+                    {
+                        "name": "Steganography Online",
+                        "url": "https://stylesuxx.github.io/steganography/",
+                        "alt": "For decoding bit data encoded in the even/odd RGB values"
+                    }
+                ]
+            },
+            "🗿 Alternate Search": {
+                "entries": [
+                    {
+                        "name": "Million Short",
+                        "url": "https://millionshort.com/",
+                    },
+                    {
+                        "name": "Wiby",
+                        "url": "https://wiby.me/",
+                    }
+                ]
+            },
+            "‍👩‍💻 Code & Reverse Engineering": {
+                "entries": [
+                    {
+                        "name": "Binary Ninja",
+                        "url": "https://cloud.binary.ninja/"
+                    },
+                    {
+                        "name": "JSNice",
+                        "url": "http://jsnice.org/",
+                        "alt": "Statistical renaming, Type inference and Deobfuscation"
+                    }
+                ],
+                "subgroups": [
+                    {
+                        "name": "Search",
+                        "entries": [
+                            {
+                                "name": "PublicWWW",
+                                "url": "https://publicwww.com/"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
-        "🌍 Network": {
-            "entries": [
-                {
-                    "name": "Shodan",
-                    "url": "https://www.shodan.io/",
-                    "alt": "The world's first search engine for Internet-connected devices"
-                },
-                {
-                    "name": "Greynoise",
-                    "url": "https://viz.greynoise.io/"
-                },
-                {
-                    "name": "Wigle",
-                    "url": "https://wigle.net/",
-                    "alt": "Wireless Network Mapping"
-                },
-                {
-                    "name": "ZoomEye",
-                    "url": "https://www.zoomeye.org/"
-                },
-                {
-                    "name": "GetLinkInfo",
-                    "url": "http://getlinkinfo.com/"
-                }
-            ],
-            "subgroups": [
-                {
-                    "name": "Domains",
-                    "entries": [
-                        {
-                            "name": "Website Investigation",
-                            "url": "https://netbootcamp.org/websitetool.html",
-                            "alt": "Launch page for multiple search engines"
-                        },
-                        {
-                            "name": "WhoXY",
-                            "url": "https://www.whoxy.com/",
-                            "alt": "Whois API / Whois History / Reverse Whois"
-                        },
-                        {
-                            "name": "Whois History",
-                            "url": "https://whois-history-api.whoisxmlapi.com/",
-                            "alt": "...view relevant historical WHOIS records"
-                        },
-                        {
-                            "name": "urlscan.io",
-                            "url": "https://urlscan.io/",
-                            "alt": "...service to scan and analyse websites"
-                        },
-                        {
-                            "name": "Robtex",
-                            "url": "https://robtex.com/",
-                            "alt": "Robtex is used for various kinds of research of IP numbers, Domain names, etc"
-                        },
-                        {
-                            "name": "Security Trails",
-                            "url": "https://securitytrails.com/",
-                            "alt": "Tap into a treasure-trove of cyber security gold for info you can’t find anywhere else."
-                        }
-                    ]
-                },
-                {
-                    "name": "Threat",
-                    "entries": [
-                        {
-                            "name": "OPSwat",
-                            "url": "https://metadefender.opswat.com/",
-                            "alt": "...identify, detect, and remediate advanced security threats from data and devices coming into and out of enterprise networks"
-                        },
-                        {
-                            "name": "Threatcrowd",
-                            "url": "https://www.threatcrowd.org/",
-                            "alt": "Search Engine for Threats"
-                        }
-                    ]
-                }
-            ]
-        },
-        "🗝 Cryptography": {
-            "entries": [
-                {
-                    "name": "DCode.fr",
-                    "url": "https://www.dcode.fr/tools-list#cryptography",
-                    "alt": "Everything crypto",
-                    "favorite": true
-                }
-            ]
-        },
-        "📷 Images": {
-            "entries": [
-                {
-                    "name": "FotoForensics",
-                    "url": "http://fotoforensics.com/",
-                },
-                {
-                    "name": "Forensically",
-                    "url": "https://29a.ch/photo-forensics/",
-                },
-                {
-                    "name": "Steganography Online",
-                    "url": "https://stylesuxx.github.io/steganography/",
-                    "alt": "For decoding bit data encoded in the even/odd RGB values"
-                }
-            ]
-        },
-        "🔎 OSInt": {
-            "entries": [
-                {
-                    "name": "Hunter.io (Email)",
-                    "url": "https://hunter.io/"
-                },
-                {
-                    "name": "crt.sh",
-                    "url": "https://crt.sh/"
-                },
-                {
-                    "name": "haveibeenpwned",
-                    "url": "https://haveibeenpwned.com/"
-                },
-                {
-                    "name": "Netcraft",
-                    "url": "https://toolbar.netcraft.com/site_report?url=https://www.netcraft.com"
-                },
-                {
-                    "name": "Built With",
-                    "url": "https://builtwith.com/"
-                }
-            ],
-            "subgroups": [
-                {
-                    "name": "Social Media",
-                    "entries": [
-                        {
-                            "name": "Twitter",
-                            "url": "https://search.twitter.com/"
-                        },
-                        {
-                            "name": "Snapchat Map",
-                            "url": "https://map.snapchat.com/"
-                        },
-                        {
-                            "name": "craigslist",
-                            "url": "https://craigslist.org/"
-                        }
-                    ]
-                },
-                {
-                    "name": "Public Records",
-                    "entries": [
-                        {
-                            "name": "SearchSystems",
-                            "url": "http://publicrecords.searchsystems.net/"
-                        },
-                        {
-                            "name": "BBB",
-                            "url": "https://www.bbb.org/"
-                        },
-                        {
-                            "name": "qPublic",
-                            "url": "https://qpublic.schneidercorp.com/",
-                            "alt": "...public access portals that allow users to view County and City information, public records and Geographical Information Systems (GIS)."
-                        },
-                        {
-                            "name": "FastPeopleSearch",
-                            "url": "https://FastPeopleSearch.com/",
-                            "alt": "Added this because I found some surprisingly deep results compared to other, similar sites."
-                        }
-
-                    ]
-                }
-            ]
-        },
-        "🗿 Alternate Search": {
-            "entries": [
-                {
-                    "name": "Million Short",
-                    "url": "https://millionshort.com/",
-                },
-                {
-                    "name": "Wiby",
-                    "url": "https://wiby.me/",
-                }
-            ]
-        },
-        "‍👩‍💻 Code & Reverse Engineering": {
-            "entries": [
-                {
-                    "name": "Binary Ninja",
-                    "url": "https://cloud.binary.ninja/"
-                },
-                {
-                    "name": "JSNice",
-                    "url": "http://jsnice.org/",
-                    "alt": "Statistical renaming, Type inference and Deobfuscation"
-                }
-            ],
-            "subgroups": [
-                {
-                    "name": "Search",
-                    "entries": [
-                        {
-                            "name": "PublicWWW",
-                            "url": "https://publicwww.com/"
-                        }
-                    ]
-                }
-            ]
+        "osint": {
+            "OSINT": {
+                "entries": [
+                    {
+                        "name": "Hunter.io (Email)",
+                        "url": "https://hunter.io/"
+                    },
+                    {
+                        "name": "haveibeenpwned",
+                        "url": "https://haveibeenpwned.com/"
+                    },
+                    {
+                        "name": "Netcraft",
+                        "url": "https://toolbar.netcraft.com/site_report?url=https://www.netcraft.com"
+                    },
+                    {
+                        "name": "Built With",
+                        "url": "https://builtwith.com/"
+                    }
+                ],
+                "subgroups": [
+                    {
+                        "name": "Social Media",
+                        "entries": [
+                            {
+                                "name": "Twitter",
+                                "url": "https://search.twitter.com/"
+                            },
+                            {
+                                "name": "Snapchat Map",
+                                "url": "https://map.snapchat.com/"
+                            },
+                            {
+                                "name": "craigslist",
+                                "url": "https://craigslist.org/"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Public Records",
+                        "entries": [
+                            {
+                                "name": "SearchSystems",
+                                "url": "http://publicrecords.searchsystems.net/"
+                            },
+                            {
+                                "name": "BBB",
+                                "url": "https://www.bbb.org/"
+                            },
+                            {
+                                "name": "qPublic",
+                                "url": "https://qpublic.schneidercorp.com/",
+                                "alt": "...public access portals that allow users to view County and City information, public records and Geographical Information Systems (GIS)."
+                            },
+                            {
+                                "name": "FastPeopleSearch",
+                                "url": "https://FastPeopleSearch.com/",
+                                "alt": "Added this because I found some surprisingly deep results compared to other, similar sites."
+                            }
+                        ]
+                    }
+                ]
+            }
         }
     },
     "cheats": {
@@ -299,7 +302,6 @@
                 "name": "Reverse Shell Cheat Sheet",
                 "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md"
             }
-
         ],
         "OSINT General": [
             {
