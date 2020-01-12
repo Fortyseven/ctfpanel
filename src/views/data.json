@@ -1,7 +1,7 @@
 {
     "sections": {
         "main": {
-            "🔧 General/Common": {
+            "General/Common": {
                 "entries": [
                     {
                         "name": "CyberChef",
@@ -48,6 +48,14 @@
                     {
                         "name": "GetLinkInfo",
                         "url": "http://getlinkinfo.com/"
+                    },
+                    {
+                        "name": "Netcraft",
+                        "url": "https://toolbar.netcraft.com/site_report?url=https://www.netcraft.com"
+                    },
+                    {
+                        "name": "Built With",
+                        "url": "https://builtwith.com/"
                     }
                 ],
                 "subgroups": [
@@ -169,6 +177,11 @@
                         ]
                     }
                 ]
+            },
+            "🔧 Utilities": {
+                "entries": [
+                    {"name": "anonfiles.com", "url": "https://anonfiles.com/"}
+                ]
             }
         },
         "osint": {
@@ -183,57 +196,89 @@
                         "url": "https://haveibeenpwned.com/"
                     },
                     {
-                        "name": "Netcraft",
-                        "url": "https://toolbar.netcraft.com/site_report?url=https://www.netcraft.com"
-                    },
-                    {
-                        "name": "Built With",
-                        "url": "https://builtwith.com/"
+                        "name": "Botometer",
+                        "url": "https://botometer.iuni.iu.edu/"
                     }
-                ],
-                "subgroups": [
+                ]
+            },
+            "Social Media": {
+                "entries": [
                     {
-                        "name": "Social Media",
-                        "entries": [
-                            {
-                                "name": "Twitter",
-                                "url": "https://search.twitter.com/"
-                            },
-                            {
-                                "name": "Snapchat Map",
-                                "url": "https://map.snapchat.com/"
-                            },
-                            {
-                                "name": "craigslist",
-                                "url": "https://craigslist.org/"
-                            }
-                        ]
+                        "name": "Twitter",
+                        "url": "https://search.twitter.com/"
                     },
                     {
-                        "name": "Public Records",
-                        "entries": [
-                            {
-                                "name": "SearchSystems",
-                                "url": "http://publicrecords.searchsystems.net/"
-                            },
-                            {
-                                "name": "BBB",
-                                "url": "https://www.bbb.org/"
-                            },
-                            {
-                                "name": "qPublic",
-                                "url": "https://qpublic.schneidercorp.com/",
-                                "alt": "...public access portals that allow users to view County and City information, public records and Geographical Information Systems (GIS)."
-                            },
-                            {
-                                "name": "FastPeopleSearch",
-                                "url": "https://FastPeopleSearch.com/",
-                                "alt": "Added this because I found some surprisingly deep results compared to other, similar sites."
-                            }
-                        ]
+                        "name": "Snapchat Map",
+                        "url": "https://map.snapchat.com/"
+                    },
+                    {
+                        "name": "craigslist",
+                        "url": "https://craigslist.org/"
+                    }
+                ]
+            },
+            "Public Records": {
+                "entries": [
+                    {
+                        "name": "SearchSystems",
+                        "url": "http://publicrecords.searchsystems.net/"
+                    },
+                    {
+                        "name": "BBB",
+                        "url": "https://www.bbb.org/"
+                    },
+                    {
+                        "name": "qPublic",
+                        "url": "https://qpublic.schneidercorp.com/",
+                        "alt": "...public access portals that allow users to view County and City information, public records and Geographical Information Systems (GIS)."
+                    },
+                    {
+                        "name": "FastPeopleSearch",
+                        "url": "https://FastPeopleSearch.com/",
+                        "alt": "Added this because I found some surprisingly deep results compared to other, similar sites."
+                    }
+                ]
+            },
+            "✈ Air Traffic": {
+                "entries": [
+                    {
+                        "name": "FlightRadar24",
+                        "url": "https://flightradar24.com/"
+                    },
+                    {
+                        "name": "FlightAware",
+                        "url": "https://flightaware.com/"
+                    },
+                    {
+                        "name": "ADS-B Exchange",
+                        "url": "https://adsbexchange.com/"
+                    },
+                    {
+                        "name": "Airframes",
+                        "url": "http://airframes.org/",
+                        "alt": "Aircraft Registration Database Lookup - Passenger airliners, cargo airplanes, business jets, helicopters, private aircraft, civil and military, showing common registry data as well as mode-S radar transponder addresses."
+                    },
+                    {
+                        "name": "Blackswan.ch",
+                        "url": "https://blackswan.ch/"
+                    }
+                ]
+            },
+            "🚢 Misc Transit": {
+                "entries": [
+                    {
+                        "name":"Track-Trace",
+                        "url":"https://www.track-trace.com/",
+                        "alt": "Easy access to tracking data (packages, shipping containers, etc)"
+                    },
+                    {
+                        "name": "Vessel Finder",
+                        "url": "https://www.vesselfinder.com/",
+                        "alt": "Real-time data on the positions and movements of vessels, utilising a large network of terrestrial AIS receivers."
                     }
                 ]
             }
+
         }
     },
     "cheats": {
@@ -311,6 +356,10 @@
             {
                 "name": "Awesome OSINT",
                 "url": "https://github.com/jivoi/awesome-osint"
+            },
+            {
+                "name": "Bellingcat’s Online Investigation Toolkit (GDoc)",
+                "url": "https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit"
             }
         ],
         "OSINT Geographic Specific Searches": [
