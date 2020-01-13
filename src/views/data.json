@@ -37,6 +37,11 @@
                         "url": "https://viz.greynoise.io/"
                     },
                     {
+                        "name": "Censys",
+                        "url": "https://censys.io/",
+                        "alt": "Get a current view of all of your organization's assets so you can proactively prevent targeted attacks and investigate suspicious activity."
+                    },
+                    {
                         "name": "Wigle",
                         "url": "https://wigle.net/",
                         "alt": "Wireless Network Mapping"
@@ -52,13 +57,22 @@
                     {
                         "name": "Netcraft",
                         "url": "https://toolbar.netcraft.com/site_report?url=https://www.netcraft.com"
-                    },
-                    {
-                        "name": "Built With",
-                        "url": "https://builtwith.com/"
                     }
                 ],
                 "subgroups": [
+                    {
+                        "name": "Website Analysis",
+                        "entries": [
+                            {
+                                "name": "OpenLinkProfiler",
+                                "url": "https://www.openlinkprofiler.org/"
+                            },
+                            {
+                                "name": "Built With",
+                                "url": "https://builtwith.com/"
+                            }
+                        ]
+                    },
                     {
                         "name": "Domains",
                         "entries": [
@@ -95,7 +109,27 @@
                             {
                                 "name": "crt.sh",
                                 "url": "https://crt.sh/"
-                            }
+                            },
+                            {
+                                "name": "CompleteDNS History",
+                                "url": "https://completedns.com/dns-history/",
+                                "alt": "Largest DNS record history database, with more than 2.2 billion nameserver changes detected, daily updated."
+                            },
+                            {
+                                "name": "DNS Trails",
+                                "url": "https://securitytrails.com/dns-trails",
+                                "alt": "World's Largest Repository of historical DNS data"
+                            },
+                            {
+                                "name": "Geo Data Tool",
+                                "url": "https://www.geodatatool.com/"
+                            },
+                            {
+                                "name": "SpyOnWeb",
+                                "url": "http://www.spyonweb.com/",
+                                "alt": "Can search by analytics tracking codes -- We take the information from public sources, then structure it for your quick and convenient search for the websites that probably belong to the same owner."
+                            },
+
                         ]
                     },
                     {
@@ -151,6 +185,10 @@
                     {
                         "name": "Wiby",
                         "url": "https://wiby.me/",
+                    },
+                    {
+                        "name": "WolframAlpha",
+                        "url": "https://www.wolframalpha.com/",
                     }
                 ]
             },
@@ -184,6 +222,18 @@
                         "name": "anonfiles.com",
                         "url": "https://anonfiles.com/"
                     }
+                ],
+                "subgroups": [
+                    {
+                        "name": "Chronology",
+                        "entries": [
+                            {
+                                "name": "🌞 SunCalc",
+                                "url": "https://www.suncalc.org/",
+                                "alt": "...shows the movement of the sun and sunlight-phase for a certain day at a certain place."
+                            }
+                        ]
+                    }
                 ]
             }
         },
@@ -201,10 +251,15 @@
                     {
                         "name": "Botometer",
                         "url": "https://botometer.iuni.iu.edu/"
+                    },
+                    {
+                        "name": "License Plate Mania",
+                        "url": "http://www.licenseplatemania.com/",
+                        "alt": "...collection of license plate pictures across the world..."
                     }
                 ]
             },
-            "Social Media": {
+            "💬 Social Media": {
                 "entries": [
                     {
                         "name": "Snapchat Map",
@@ -222,7 +277,20 @@
                             {
                                 "name": "Twitter Search",
                                 "url": "https://search.twitter.com/"
-                            }
+                            },
+                            {
+                                "name": "Botometer",
+                                "url": "https://botometer.iuni.iu.edu/#!/"
+                            },
+                            {
+                                "name": "#onemilliontweetmap",
+                                "url": "https://onemilliontweetmap.com/"
+                            },
+                            {
+                                "name": "⚙ Treeverse",
+                                "url": "https://treeverse.app/"
+                            },
+
                         ]
                     },
                     {
@@ -260,13 +328,26 @@
                                 "name": "ISDB.pw",
                                 "url": "https://isdb.pw/save-instagram-stories.html",
                                 "alt": "We save Instagram stories for you, and now you can go back in time and find past story!"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "YouTube",
+                        "entries": [
+                            {
+                                "name": "YouTube DataViewer",
+                                "url": "https://citizenevidence.amnestyusa.org/"
                             },
+                            {
+                                "name": "YouTube Geofind",
+                                "url": "https://mattw.io/youtube-geofind/"
+                            }
                         ]
                     }
 
                 ]
             },
-            "Public Records": {
+            "🧾 Public Records": {
                 "entries": [
                     {
                         "name": "SearchSystems",
@@ -299,8 +380,27 @@
                         "url": "https://flightaware.com/"
                     },
                     {
+                        "name": "AirNav RadarBox",
+                        "url": "https://www.radarbox24.com/"
+                    },
+                    {
+                        "name": "OpenSky Network",
+                        "url": "https://opensky-network.org/",
+                        "alt": "Open Air Traffic Data for Research"
+                    },
+                    {
+                        "name": "planefinder",
+                        "url": "https://planefinder.net/",
+                        "alt": "Includes historical flight data"
+                    },
+                    {
                         "name": "ADS-B Exchange",
                         "url": "https://adsbexchange.com/"
+                    },
+                    {
+                        "name": "LiveATC",
+                        "url": "https://www.liveatc.net/",
+                        "alt": "Live air traffic -- From their headsets to you"
                     },
                     {
                         "name": "Airframes",
@@ -310,10 +410,16 @@
                     {
                         "name": "Blackswan.ch",
                         "url": "https://blackswan.ch/"
-                    }
+                    },
+                    {
+                        "name": "FAA Registry",
+                        "url": "https://registry.faa.gov/aircraftinquiry/NNum_inquiry.aspx",
+                        "alt": "Data Updated each Federal Working Day at Midnight"
+                    },
+
                 ]
             },
-            "🚢 Misc Transit": {
+            "🚢 Sea/Land": {
                 "entries": [
                     {
                         "name": "Track-Trace",
@@ -321,10 +427,38 @@
                         "alt": "Easy access to tracking data (packages, shipping containers, etc)"
                     },
                     {
+                        "name": "WikiRoutes",
+                        "url": "https://wikiroutes.info/",
+                        "alt": "World's public transport database edited by people on the principles of Wikipedia"
+                    },
+                    {
                         "name": "Vessel Finder",
                         "url": "https://www.vesselfinder.com/",
                         "alt": "Real-time data on the positions and movements of vessels, utilising a large network of terrestrial AIS receivers."
-                    }
+                    },
+                    {
+                        "name": "MarineTraffic",
+                        "url": "https://www.marinetraffic.com/",
+                        "alt": "MarineTraffic is the world’s leading provider of ship tracking and maritime intelligence."
+                    },
+                    {
+                        "name": "Global Fishing Watch",
+                        "url": "https://globalfishingwatch.org/map/",
+                        "alt": "...offers a way to see the tracks of commercial fishing vessels at sea in near real-time. "
+                    },
+                    {
+                        "name": "FleetMon",
+                        "url": "https://www.fleetmon.com/",
+                        "alt": "Open database of ships and ports world-wide; real-time AIS position data, technical information and photos from more than 500000 vessels."
+                    },
+                    {
+                        "name": "Equasis",
+                        "url": "http://www.equasis.org/EquasisWeb/public/HomePage",
+                        "alt": "Vessel ownership and identification records."
+                    },
+
+
+
                 ]
             }
         }
