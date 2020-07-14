@@ -296,6 +296,29 @@
                     }
                 ]
             },
+            "Reverse Image Search": {
+                "entries": [
+                    {
+                        "name": "Google",
+                        "url": "https://images.google.com/"
+                    },
+                    {
+                        "name": "Bing",
+                        "url": "https://images.bing.com/",
+                        "alt": "Bing allows for targeting subregions of images, and it's not too bad actually"
+                    },
+                    {
+                        "name": "Yandex",
+                        "url": "https://yandex.com/images/",
+                        "alt": "A heavy European focus; often has very surprising results"
+                    },
+                    {
+                        "name": "TinEye",
+                        "url": "https://tineye.com/",
+                        "alt": "Seems to only really be good for specific 1:1 matches"
+                    }
+                ]
+            },
             "💬 Social Media": {
                 "entries": [
                     {
