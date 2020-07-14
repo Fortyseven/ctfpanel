@@ -105,11 +105,6 @@ main {
         }
     }
 
-    #Cheats details,
-    #Links section {
-        flex: 1 1 auto;
-    }
-
     ul {
         list-style: none;
         margin: 0;
@@ -190,15 +185,14 @@ tabpage {
 }
 
 pagecontent {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     section {
         background-color: #181818;
         box-shadow: 0 0 10px black;
         border-radius: 10px;
         padding: 1em;
         margin: 0.5em;
-        flex: 1 1 auto;
     }
     &.noflex {
         display:block;
