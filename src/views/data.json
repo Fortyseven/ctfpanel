@@ -281,6 +281,18 @@
                         "name": "Torrent IP Search",
                         "url": "https://iknowwhatyoudownload.com/en/peer/",
                         "alt": "Aggregates peer-sharing statistics and allows searching by IP address to see what was torrented"
+                    },
+                    {
+                        "name": "OSINT Framework",
+                        "url": "https://osintframework.com/"
+                    },
+                    {
+                        "name": "Awesome OSINT",
+                        "url": "https://github.com/jivoi/awesome-osint"
+                    },
+                    {
+                        "name": "Bellingcat’s Online Investigation Toolkit (GDoc)",
+                        "url": "https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit"
                     }
                 ]
             },
@@ -396,6 +408,49 @@
                         "name": "FCC License Search",
                         "url": "https://wireless2.fcc.gov/UlsApp/UlsSearch/searchLicense.jsp",
                         "alt": "The ULS License Search enables you to search for a wide range of licenses in the Universal Licensing System. "
+                    }
+                ],
+                "subgroups": [
+                    {
+                        "name": "Geographic Specific Searches",
+                        "entries":[
+                            {
+                                "name": "ArkansasVoters",
+                                "url": "https://arkvoters.com/"
+                            },
+                            {
+                                "name": "ColoradoVoters",
+                                "url": "https://coloradovoters.info/"
+                            },
+                            {
+                                "name": "ConnVoters",
+                                "url": "http://connvoters.com/"
+                            },
+                            {
+                                "name": "DelawareVoters",
+                                "url": "https://delawarevoters.info/"
+                            },
+                            {
+                                "name": "FloridaVoters",
+                                "url": "https://flvoters.com/"
+                            },
+                            {
+                                "name": "MichiganVoters",
+                                "url": "https://michiganvoters.info/"
+                            },
+                            {
+                                "name": "OhioVoters",
+                                "url": "http://ohiovoters.us/"
+                            },
+                            {
+                                "name": "OklaVoters",
+                                "url": "https://oklavoters.com/"
+                            },
+                            {
+                                "name": "RhodeIslandVoters",
+                                "url": "https://rivoters.com/"
+                            }
+                        ]
                     }
                 ]
             },
@@ -568,58 +623,6 @@
             {
                 "name": "Reverse Shell Cheat Sheet",
                 "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md"
-            }
-        ],
-        "OSINT General": [
-            {
-                "name": "OSINT Framework",
-                "url": "https://osintframework.com/"
-            },
-            {
-                "name": "Awesome OSINT",
-                "url": "https://github.com/jivoi/awesome-osint"
-            },
-            {
-                "name": "Bellingcat’s Online Investigation Toolkit (GDoc)",
-                "url": "https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit"
-            }
-        ],
-        "OSINT Geographic Specific Searches": [
-            {
-                "name": "ArkansasVoters",
-                "url": "https://arkvoters.com/"
-            },
-            {
-                "name": "ColoradoVoters",
-                "url": "https://coloradovoters.info/"
-            },
-            {
-                "name": "ConnVoters",
-                "url": "http://connvoters.com/"
-            },
-            {
-                "name": "DelawareVoters",
-                "url": "https://delawarevoters.info/"
-            },
-            {
-                "name": "FloridaVoters",
-                "url": "https://flvoters.com/"
-            },
-            {
-                "name": "MichiganVoters",
-                "url": "https://michiganvoters.info/"
-            },
-            {
-                "name": "OhioVoters",
-                "url": "http://ohiovoters.us/"
-            },
-            {
-                "name": "OklaVoters",
-                "url": "https://oklavoters.com/"
-            },
-            {
-                "name": "RhodeIslandVoters",
-                "url": "https://rivoters.com/"
             }
         ]
     },
