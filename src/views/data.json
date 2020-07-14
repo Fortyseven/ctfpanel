@@ -278,9 +278,9 @@
                         "alt": "...collection of license plate pictures across the world..."
                     },
                     {
-                        "name": "FCC License Search",
-                        "url": "https://wireless2.fcc.gov/UlsApp/UlsSearch/searchLicense.jsp",
-                        "alt": "The ULS License Search enables you to search for a wide range of licenses in the Universal Licensing System. "
+                        "name": "Torrent IP Search",
+                        "url": "https://iknowwhatyoudownload.com/en/peer/",
+                        "alt": "Aggregates peer-sharing statistics and allows searching by IP address to see what was torrented"
                     }
                 ]
             },
@@ -391,6 +391,16 @@
                         "name": "FastPeopleSearch",
                         "url": "https://FastPeopleSearch.com/",
                         "alt": "Added this because I found some surprisingly deep results compared to other, similar sites."
+                    },
+                    {
+                        "name": "USPTO Trademark Search",
+                        "url": "http://tmsearch.uspto.gov/",
+                        "alt": "United States Patent and Trademark Office TESS (Trademark Electronic Search System)"
+                    },
+                    {
+                        "name": "FCC License Search",
+                        "url": "https://wireless2.fcc.gov/UlsApp/UlsSearch/searchLicense.jsp",
+                        "alt": "The ULS License Search enables you to search for a wide range of licenses in the Universal Licensing System. "
                     }
                 ]
             },
