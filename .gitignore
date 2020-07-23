@@ -12,10 +12,6 @@ Thumbs.db
 # We only care about .less files
 #*.css
 
-
-# Use example.config.local.json to craft your own; don't commit it :P
-config.local*.json
-
 # Large original backups of site assets that are stored elsewhere (files.ii)
 /_assets/_archive
 

@@ -5,7 +5,7 @@
 
 var use_external_ts_build_for_watch = false;
 
-var DEFAULT_CONFIG_PATH = "./config.local.json";
+var DEFAULT_CONFIG_PATH = "./config.json";
 
 /********************************************************************************/
 module.exports = function(grunt) {

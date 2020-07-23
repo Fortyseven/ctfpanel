@@ -1,0 +1,23 @@
+{
+    "path": {
+        "source": {
+            "root": "./src",
+            "top_level": "/root",
+            "scripts": "/scripts",
+            "css": "/css",
+            "fonts": "/fonts",
+            "images": "/images",
+            "views": "/views/pages"
+        },
+        "dest": {
+            "root": "./docs",
+            "top_level": "/assets/",
+            "css": "/assets/css",
+            "scripts": "/assets/scripts",
+            "images": "/assets/images",
+            "fonts": "/assets/fonts",
+            "html": "/"
+        },
+        "temp": "./temp"
+    }
+}
