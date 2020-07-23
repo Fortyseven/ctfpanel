@@ -129,7 +129,6 @@
                                 "url": "http://www.spyonweb.com/",
                                 "alt": "Can search by analytics tracking codes -- We take the information from public sources, then structure it for your quick and convenient search for the websites that probably belong to the same owner."
                             },
-
                         ]
                     },
                     {
@@ -253,7 +252,6 @@
                             }
                         ]
                     }
-
                 ]
             }
         },
@@ -350,7 +348,6 @@
                                 "name": "⚙ Treeverse",
                                 "url": "https://treeverse.app/"
                             },
-
                         ]
                     },
                     {
@@ -399,7 +396,25 @@
                             }
                         ]
                     }
-
+                ]
+            },
+            "IMs": {
+                "subgroups": [
+                    {
+                        "name": "Telegram",
+                        "entries": [
+                            {
+                                "name": "Buzz.im",
+                                "url": "https://search.buzz.im/",
+                                "alt": "Telegram monitoring and search"
+                            },
+                            {
+                                "name": "Telegram Analytics",
+                                "url": "https://tgstat.ru/en",
+                                "alt": "Statistical data on 150,000+ Telegram channels in multiple languages"
+                            }
+                        ]
+                    }
                 ]
             },
             "🧾 Public Records": {
@@ -436,7 +451,7 @@
                 "subgroups": [
                     {
                         "name": "Geographic Specific Searches",
-                        "entries":[
+                        "entries": [
                             {
                                 "name": "ArkansasVoters",
                                 "url": "https://arkvoters.com/"
@@ -524,7 +539,6 @@
                         "url": "https://registry.faa.gov/aircraftinquiry/NNum_inquiry.aspx",
                         "alt": "Data Updated each Federal Working Day at Midnight"
                     },
-
                 ]
             },
             "🚢 Sea/Land": {
@@ -564,9 +578,6 @@
                         "url": "http://www.equasis.org/EquasisWeb/public/HomePage",
                         "alt": "Vessel ownership and identification records."
                     },
-
-
-
                 ]
             }
         }
