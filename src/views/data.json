@@ -57,6 +57,11 @@
                     {
                         "name": "Netcraft",
                         "url": "https://toolbar.netcraft.com/site_report?url=https://www.netcraft.com"
+                    },
+                    {
+                        "name": "Unfurl",
+                        "url": "https://dfir.blog/unfurl/",
+                        "alt": "Unpack and analyze URLs (can decode timestamps, etc)"
                     }
                 ],
                 "subgroups": [
