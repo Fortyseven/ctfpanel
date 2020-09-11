@@ -2,8 +2,7 @@
     "sections": {
         "main": {
             "General/Common": {
-                "entries": [
-                    {
+                "entries": [{
                         "name": "CyberChef",
                         "url": "https://gchq.github.io/CyberChef/",
                         "alt": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
@@ -26,8 +25,7 @@
                 ]
             },
             "🌍 Network": {
-                "entries": [
-                    {
+                "entries": [{
                         "name": "Shodan",
                         "url": "https://www.shodan.io/",
                         "alt": "The world's first search engine for Internet-connected devices"
@@ -64,11 +62,9 @@
                         "alt": "Unpack and analyze URLs (can decode timestamps, etc)"
                     }
                 ],
-                "subgroups": [
-                    {
+                "subgroups": [{
                         "name": "Website Analysis",
-                        "entries": [
-                            {
+                        "entries": [{
                                 "name": "OpenLinkProfiler",
                                 "url": "https://www.openlinkprofiler.org/"
                             },
@@ -80,8 +76,7 @@
                     },
                     {
                         "name": "Domains",
-                        "entries": [
-                            {
+                        "entries": [{
                                 "name": "Website Investigation",
                                 "url": "https://netbootcamp.org/websitetool.html",
                                 "alt": "Launch page for multiple search engines"
@@ -138,13 +133,17 @@
                                 "name": "subdomainfinder.c99.nl",
                                 "url": "https://subdomainfinder.c99.nl/",
                                 "alt": "Subdomain Finder is a scanner that scans an entire domain to find as many subdomains as possible."
+                            },
+                            {
+                                "name": "dnsdumpster",
+                                "url": "https://dnsdumpster.com/",
+                                "alt": "dns recon & research, find & lookup dns records"
                             }
                         ]
                     },
                     {
                         "name": "Threat",
-                        "entries": [
-                            {
+                        "entries": [{
                                 "name": "OPSwat",
                                 "url": "https://metadefender.opswat.com/",
                                 "alt": "...identify, detect, and remediate advanced security threats from data and devices coming into and out of enterprise networks"
@@ -159,18 +158,15 @@
                 ]
             },
             "🗝 Cryptography": {
-                "entries": [
-                    {
-                        "name": "DCode.fr",
-                        "url": "https://www.dcode.fr/tools-list#cryptography",
-                        "alt": "Everything crypto",
-                        "favorite": true
-                    }
-                ]
+                "entries": [{
+                    "name": "DCode.fr",
+                    "url": "https://www.dcode.fr/tools-list#cryptography",
+                    "alt": "Everything crypto",
+                    "favorite": true
+                }]
             },
             "📷 Images": {
-                "entries": [
-                    {
+                "entries": [{
                         "name": "FotoForensics",
                         "url": "http://fotoforensics.com/",
                     },
@@ -186,8 +182,7 @@
                 ]
             },
             "🗿 Alternate Search": {
-                "entries": [
-                    {
+                "entries": [{
                         "name": "Million Short",
                         "url": "https://millionshort.com/",
                     },
@@ -202,8 +197,7 @@
                 ]
             },
             "‍👩‍💻 Code & Reverse Engineering": {
-                "entries": [
-                    {
+                "entries": [{
                         "name": "Binary Ninja",
                         "url": "https://cloud.binary.ninja/"
                     },
@@ -213,21 +207,16 @@
                         "alt": "Statistical renaming, Type inference and Deobfuscation"
                     }
                 ],
-                "subgroups": [
-                    {
-                        "name": "Search",
-                        "entries": [
-                            {
-                                "name": "PublicWWW",
-                                "url": "https://publicwww.com/"
-                            }
-                        ]
-                    }
-                ]
+                "subgroups": [{
+                    "name": "Search",
+                    "entries": [{
+                        "name": "PublicWWW",
+                        "url": "https://publicwww.com/"
+                    }]
+                }]
             },
             "🔧 Utilities": {
-                "entries": [
-                    {
+                "entries": [{
                         "name": "anonfiles.com",
                         "url": "https://anonfiles.com/"
                     },
@@ -241,34 +230,28 @@
                         "alt": "Ghostbin is a paste service."
                     },
                 ],
-                "subgroups": [
-                    {
+                "subgroups": [{
                         "name": "Chronology",
-                        "entries": [
-                            {
-                                "name": "🌞 SunCalc",
-                                "url": "https://www.suncalc.org/",
-                                "alt": "...shows the movement of the sun and sunlight-phase for a certain day at a certain place."
-                            }
-                        ]
+                        "entries": [{
+                            "name": "🌞 SunCalc",
+                            "url": "https://www.suncalc.org/",
+                            "alt": "...shows the movement of the sun and sunlight-phase for a certain day at a certain place."
+                        }]
                     },
                     {
                         "name": "Images",
-                        "entries": [
-                            {
-                                "name": "Image Scrubber",
-                                "url": "https://everestpipkin.github.io/image-scrubber/",
-                                "alt": "Scrub EXIF data; blur/obscure images. All in browser."
-                            }
-                        ]
+                        "entries": [{
+                            "name": "Image Scrubber",
+                            "url": "https://everestpipkin.github.io/image-scrubber/",
+                            "alt": "Scrub EXIF data; blur/obscure images. All in browser."
+                        }]
                     }
                 ]
             }
         },
         "osint": {
             "OSINT": {
-                "entries": [
-                    {
+                "entries": [{
                         "name": "Hunter.io (Email)",
                         "url": "https://hunter.io/"
                     },
@@ -305,8 +288,7 @@
                 ]
             },
             "Reverse Image Search": {
-                "entries": [
-                    {
+                "entries": [{
                         "name": "Google",
                         "url": "https://images.google.com/"
                     },
@@ -328,8 +310,7 @@
                 ]
             },
             "💬 Social Media": {
-                "entries": [
-                    {
+                "entries": [{
                         "name": "Snapchat Map",
                         "url": "https://map.snapchat.com/"
                     },
@@ -338,11 +319,9 @@
                         "url": "https://craigslist.org/"
                     }
                 ],
-                "subgroups": [
-                    {
+                "subgroups": [{
                         "name": "Twitter",
-                        "entries": [
-                            {
+                        "entries": [{
                                 "name": "Twitter Search",
                                 "url": "https://search.twitter.com/"
                             },
@@ -362,8 +341,7 @@
                     },
                     {
                         "name": "Facebook",
-                        "entries": [
-                            {
+                        "entries": [{
                                 "name": "graph.tips",
                                 "url": "https://graph.tips/beta/"
                             },
@@ -380,8 +358,7 @@
                     },
                     {
                         "name": "Instagram",
-                        "entries": [
-                            {
+                        "entries": [{
                                 "name": "GramFly",
                                 "url": "https://gramfly.com/",
                                 "alt": "View Interactions & Activity of Instagram Users"
@@ -395,8 +372,7 @@
                     },
                     {
                         "name": "YouTube",
-                        "entries": [
-                            {
+                        "entries": [{
                                 "name": "YouTube DataViewer",
                                 "url": "https://citizenevidence.amnestyusa.org/"
                             },
@@ -409,27 +385,23 @@
                 ]
             },
             "IMs": {
-                "subgroups": [
-                    {
-                        "name": "Telegram",
-                        "entries": [
-                            {
-                                "name": "Buzz.im",
-                                "url": "https://search.buzz.im/",
-                                "alt": "Telegram monitoring and search"
-                            },
-                            {
-                                "name": "Telegram Analytics",
-                                "url": "https://tgstat.ru/en",
-                                "alt": "Statistical data on 150,000+ Telegram channels in multiple languages"
-                            }
-                        ]
-                    }
-                ]
+                "subgroups": [{
+                    "name": "Telegram",
+                    "entries": [{
+                            "name": "Buzz.im",
+                            "url": "https://search.buzz.im/",
+                            "alt": "Telegram monitoring and search"
+                        },
+                        {
+                            "name": "Telegram Analytics",
+                            "url": "https://tgstat.ru/en",
+                            "alt": "Statistical data on 150,000+ Telegram channels in multiple languages"
+                        }
+                    ]
+                }]
             },
             "🧾 Public Records": {
-                "entries": [
-                    {
+                "entries": [{
                         "name": "SearchSystems",
                         "url": "http://publicrecords.searchsystems.net/"
                     },
@@ -458,53 +430,49 @@
                         "alt": "The ULS License Search enables you to search for a wide range of licenses in the Universal Licensing System. "
                     }
                 ],
-                "subgroups": [
-                    {
-                        "name": "Geographic Specific Searches",
-                        "entries": [
-                            {
-                                "name": "ArkansasVoters",
-                                "url": "https://arkvoters.com/"
-                            },
-                            {
-                                "name": "ColoradoVoters",
-                                "url": "https://coloradovoters.info/"
-                            },
-                            {
-                                "name": "ConnVoters",
-                                "url": "http://connvoters.com/"
-                            },
-                            {
-                                "name": "DelawareVoters",
-                                "url": "https://delawarevoters.info/"
-                            },
-                            {
-                                "name": "FloridaVoters",
-                                "url": "https://flvoters.com/"
-                            },
-                            {
-                                "name": "MichiganVoters",
-                                "url": "https://michiganvoters.info/"
-                            },
-                            {
-                                "name": "OhioVoters",
-                                "url": "http://ohiovoters.us/"
-                            },
-                            {
-                                "name": "OklaVoters",
-                                "url": "https://oklavoters.com/"
-                            },
-                            {
-                                "name": "RhodeIslandVoters",
-                                "url": "https://rivoters.com/"
-                            }
-                        ]
-                    }
-                ]
+                "subgroups": [{
+                    "name": "Geographic Specific Searches",
+                    "entries": [{
+                            "name": "ArkansasVoters",
+                            "url": "https://arkvoters.com/"
+                        },
+                        {
+                            "name": "ColoradoVoters",
+                            "url": "https://coloradovoters.info/"
+                        },
+                        {
+                            "name": "ConnVoters",
+                            "url": "http://connvoters.com/"
+                        },
+                        {
+                            "name": "DelawareVoters",
+                            "url": "https://delawarevoters.info/"
+                        },
+                        {
+                            "name": "FloridaVoters",
+                            "url": "https://flvoters.com/"
+                        },
+                        {
+                            "name": "MichiganVoters",
+                            "url": "https://michiganvoters.info/"
+                        },
+                        {
+                            "name": "OhioVoters",
+                            "url": "http://ohiovoters.us/"
+                        },
+                        {
+                            "name": "OklaVoters",
+                            "url": "https://oklavoters.com/"
+                        },
+                        {
+                            "name": "RhodeIslandVoters",
+                            "url": "https://rivoters.com/"
+                        }
+                    ]
+                }]
             },
             "✈ Air Traffic": {
-                "entries": [
-                    {
+                "entries": [{
                         "name": "FlightRadar24",
                         "url": "https://flightradar24.com/"
                     },
@@ -552,8 +520,7 @@
                 ]
             },
             "🚢 Sea/Land": {
-                "entries": [
-                    {
+                "entries": [{
                         "name": "Track-Trace",
                         "url": "https://www.track-trace.com/",
                         "alt": "Easy access to tracking data (packages, shipping containers, etc)"
@@ -593,8 +560,7 @@
         }
     },
     "cheats": {
-        "Misc": [
-            {
+        "Misc": [{
                 "name": "Helpful Linux CTF Commands",
                 "url": "https://www.tunnelsup.com/helpful-linux-commands-for-ctfs/"
             },
@@ -619,8 +585,7 @@
                 "url": "https://explainshell.com/"
             }
         ],
-        "Privilege Escalation": [
-            {
+        "Privilege Escalation": [{
                 "name": "Linux elevation of privileges",
                 "url": "https://guif.re/linuxeop"
             },
@@ -635,8 +600,7 @@
                 "alt": "...curated list of Windows binaries that can be exploited by an attacker to bypass local security restrictions."
             }
         ],
-        "Explots": [
-            {
+        "Explots": [{
                 "name": "Exploit DB",
                 "url": "https://www.exploit-db.com/"
             },
