@@ -50,6 +50,9 @@ h5 {
     font-weight: 200;
     line-height: 1em;
 }
+h1 {
+    padding-bottom: 0.25em;
+}
 summary {
     cursor: pointer;
     user-select: none;
@@ -84,8 +87,25 @@ a {
         background-color: #333;
         box-shadow: none;
     }
-
+    &.no-block {
+        display: inline;
+        background-color: unset;
+        text-decoration: underline;
+        padding: unset;
+        box-shadow: unset;
+        min-width: unset;
+    }
 }
+
+table a {
+    display: inline;
+    background-color: unset;
+    text-decoration: underline;
+    padding: unset;
+    box-shadow: unset;
+    min-width: unset;
+}
+
 
 main {
     #Links, #Cheats {
@@ -113,7 +133,7 @@ main {
         flex-wrap: wrap;
         li {
             flex: 0 1 auto;
-            margin: 0.5em 0.25em;
+            margin: 0.3em 0.25em;
         }
     }
 }
@@ -196,5 +216,25 @@ pagecontent {
     }
     &.noflex {
         display:block;
+    }
+    table {
+        caption {
+            padding-bottom: 0.5em;
+            margin: 1em;
+            color: @ega-yellow;
+            border-bottom: 1px solid black;
+        }
+        cursor: pointer;
+        tr:hover {
+            background-color: #181818 + #111;
+        }
+        td {
+            padding: 0 1em;
+        }
+        td.example {
+            font-family: monospace;
+            color: @ega-ltcyan;
+            min-width: 30%;
+        }
     }
 }

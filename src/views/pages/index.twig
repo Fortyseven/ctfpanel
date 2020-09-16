@@ -30,7 +30,8 @@
 <main>
     <tabselector>
         <button data-for-tab="main">⭐ Main</button>
-        <button data-for-tab="osint">🔎 OSINT</button>
+        <button data-for-tab="osint">🎯 OSINT</button>
+        <button data-for-tab="search">🔎 Search</button>
         <button data-for-tab="other">🐙 Other</button>
     </tabselector>
     <tabpage id="main">
@@ -38,6 +39,9 @@
     </tabpage>
     <tabpage id="osint">
         {% include "_tab-osint.twig" %}
+    </tabpage>
+    <tabpage id="search">
+        {% include "_tab-search.twig" %}
     </tabpage>
     <tabpage id="other">
         {% include "_tab-other.twig" %}
