@@ -1025,6 +1025,11 @@
         font-family: monospace;
     }
 
+    #ToolReverse .controls {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     #ReverseOutput td {
         padding-top: 0.20em;
         padding-bottom: 0.20em;
@@ -1034,6 +1039,8 @@
         background-color: black;
         color: #0BB;
         cursor: pointer;
+        word-wrap: anywhere;
+        width: 100%;
     }
 
     #ReverseOutput td.example:hover {
@@ -1051,9 +1058,11 @@
     <summary>Reverse Shells</summary>
     <p>
         <form>
-            <label>IP <input type="text" id="ReverseIP" placeholder="e.g. 127.0.0.1"/></label>
-            <label>Port <input type="text" id="ReversePort" placeholder="e.g. 1337" value="1337"/></label>
-            <button onClick="reverseGenerate()">Generate</button>
+            <div class="controls">
+                <div><label>IP </label><input type="text" id="ReverseIP" placeholder="e.g. 127.0.0.1" />&nbsp;</div>
+                <div><label>Port </label><input type="text" id="ReversePort" placeholder="e.g. 1337" value="1337" />&nbsp;</div>
+                <div><button onClick="reverseGenerate()">Generate</button></div>
+            </div>
             <div id="ReverseOutput"></div>
             <p align="right"><small>Adapted from <a class="no-block"" href="https://github.com/spyx/monkey-shell">monkey-shell</a></small></p>
         </form>
