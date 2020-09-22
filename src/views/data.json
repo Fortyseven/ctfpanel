@@ -322,7 +322,13 @@
                     {
                         "name": "craigslist",
                         "url": "https://craigslist.org/"
-                    }
+                    },
+                    {
+                        "name": "Social Media Analysis Toolkit",
+                        "url": "https://www.smat-app.com/",
+                        "alt": "...analyze and visualize larger trends on a variety of platforms."
+                    },
+
                 ],
                 "subgroups": [{
                         "name": "Twitter",
