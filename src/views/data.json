@@ -220,6 +220,24 @@
                     }]
                 }]
             },
+            "🐛 Virus and Malware Research": {
+                "entries": [{
+                    "name": "VirusTotal",
+                    "url": "https://www.virustotal.com/",
+                }, {
+                    "name": "Hybrid Analysis",
+                    "url": "https://hybrid-analysis.com/",
+                    "alt": "...malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology."
+                }],
+                "subgroups": [{
+                    "name": "Sandboxes",
+                    "entries": [{
+                        "name": "any.run",
+                        "url": "https://any.run/",
+                        "alt": "Watch the epidemic as if it was on your computer, but in a more convenient and secure way, with a variety of monitoring features."
+                    }]
+                }]
+            },
             "🔧 Utilities": {
                 "entries": [{
                         "name": "anonfiles.com",
