@@ -71,6 +71,11 @@
                             {
                                 "name": "Built With",
                                 "url": "https://builtwith.com/"
+                            },
+                            {
+                                "name": "Blacklight",
+                                "url": "https://themarkup.org/blacklight",
+                                "alt": "Real-Time Website Privacy Inspector"
                             }
                         ]
                     },
