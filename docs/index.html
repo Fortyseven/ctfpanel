@@ -22,6 +22,7 @@
         <button data-for-tab="main">⭐ Main</button>
         <button data-for-tab="osint">🎯 OSINT</button>
         <button data-for-tab="search">🔎 Search</button>
+        <button data-for-tab="cheats">👺 Cheats</button>
         <button data-for-tab="tools">🔨 Tools</button>
         <button data-for-tab="other">🐙 Other</button>
     </tabselector>
@@ -1066,6 +1067,71 @@
                 </tbody>
             </table>
             <p align="right"><small>Adapted from <a class="no-block" href="https://zapier.com/blog/twitter-advanced-search-guide/">zapier.com</a></small></p>
+    </details>
+</CheatBlock></pagecontent>    </tabpage>
+    <tabpage id="cheats">
+        <pagecontent class="noflex">
+    <CheatBlock>
+    <details>
+        <summary>Wireshark <a href="https://twitter.com/search">🔗</a></summary>
+            <p><a href="https://www.wireshark.org/docs/dfref/">Display Filters</a> <a href="http://www.tcpdump.org/manpages/pcap-filter.7.html">Capture Filters</a></p>
+            <table width="100%">
+                <caption>Comparison Operators</caption>
+                <tbody>
+                    <tr><td class="example">eq / ==</td><td>Equal</td><td class="example">ip.dest == 192.168.1.1</td></tr>
+                    <tr><td class="example">ne / !=</td><td>Not equal</td><td class="example">ip.addr != 192.168.1.1</td></tr>
+                    <tr><td class="example"></td><td>* use this instead! -&gt;</td><td class="example">!(ip.addr == 192.168.1.1)</td></tr>
+                    <tr><td class="example">gt / &gt;</td><td>Greater than</td><td class="example">frame.len &gt; 10</td></tr>
+                    <tr><td class="example">lt / &lt;</td><td>Less than</td><td class="example">frame.len &lt; 10</td></tr>
+                    <tr><td class="example">ge / &gt;=</td><td>Greater than or equal</td><td class="example">frame.len &gt;= 10</td></tr>
+                    <tr><td class="example">le / &lt;=</td><td>Less than or equal</td><td class="example">frame.len &lt;= 10</td></tr>
+                </tbody>
+            </table>
+            <table width="100%">
+                <caption>Logical Operators</caption>
+                <tbody>
+                    <tr><td class="example">&nbsp;&nbsp;and / &&</td><td>Match both</td></tr>
+                    <tr><td class="example">&nbsp;&nbsp;&nbsp;or / ||</td><td>Match either</td></tr>
+                    <tr><td class="example">&nbsp;&nbsp;xor / ^^</td><td>One of the two, not both</td></tr>
+                    <tr><td class="example">&nbsp;&nbsp;not / !</td><td>Not equal to</td></tr>
+                    <tr><td class="example">[ n ] / [ ... ] </td><td>Substring; filter specific word or text</td></tr>
+                    <tr><td class="example">{foo, bar, baz} </td><td>Membership; includes one of these</td></tr>
+                </tbody>
+            </table>
+            <table width="100%">
+                <caption>Common Display Filter Examples</caption>
+                <tbody>
+                    <tr><td class="example">ip.addr == 10.10.50.1</td><td>Filter by IP (src and dst)</td></tr>
+                    <tr><td class="example">ip.dst == 10.10.50.1</td><td>Filter by Destination IP</td></tr>
+                    <tr><td class="example">ip.src == 10.10.50.1</td><td>Filter by Source IP</td></tr>
+                    <tr><td class="example">!(ip.addr == 10.10.50.1)</td><td>Filter Out by IP</td></tr>
+                    <tr><td class="example">ip.addr &gt;= 10.10.50.1 and ip.addr &lt;=10.10.50.100</td><td>Filter by IP Range</td></tr>
+                    <tr><td class="example">ip.addr == 10.10.50.1 and ip.addr == 10.10.50.100</td><td>Filter by Multiple IPs</td></tr>
+                    <tr><td class="example">ip.addr == 10.10.50.1/24</td><td>Filter by Subnet</td></tr>
+                    <tr><td class="example">tcp.port == 25</td><td>Filter by Port</td></tr>
+                    <tr><td class="example">tcp.dstport == 25</td><td>Filter by Destination Port</td></tr>
+                    <tr><td class="example">protocol == 25</td><td>Filter by Destination Port</td></tr>
+                    <tr><td class="example">ip.host=="hostname"</td><td>Hostname filter</td></tr>
+                    <tr><td class="example">http.host == "hostname"</td><td>Filter by URL</td></tr>
+                    <tr><td class="example">http.request.method in {"HEAD" "GET"}</td><td>Show HEAD and GET http requests</td></tr>
+                    <tr><td class="example">frame.time >= "June 02, 2019 00:00:00"</td><td>Filter by Timestamp</td></tr>
+                    <tr><td class="example">tcp.flags.syn == 1 and tcp.flags.ack == 0</td><td>Show only SYN packets</td></tr>
+                    <tr><td class="example">wlan.fc.type_subtype==0x08</td><td>Show only beacon frames</td></tr>
+                    <tr><td class="example">eth.dst==de:ad:be:ee:ee:ff</td><td>MAC filter</td></tr>
+                    <tr><td class="example">eth.dst!=ff:ff:ff:ff:ff:ff</td><td>Filter out broadcast</td></tr>
+                    <tr><td class="example">(eth.dst[0] & 1)</td><td>Filter by multicast</td></tr>
+                    <tr><td class="example">tcp.flag.reset==1</td><td>RST flag filter</td></tr>
+                    <tr><td class="example">tcp.time_delta > .250</td><td>Displays packets with delta time > 250ms in their stream context</td></tr>
+                    <tr><td class="example">frame contains potato</td><td>Displays packets containing string 'potato'</td></tr>
+                    <tr><td class="example">tcp.analysis.flags && !tcp.analysis.window_update</td><td>Retransmissions, duplicate acks, zero windows, and more; for debugging performance issues</td></tr>
+                    <tr><td class="example">dns | http | ftp | ssh | icp</td><td>Search by protocol name (examples given)</td></tr>
+                    <tr><td class="example">frame contains "(attachment|tar|exe|zip|pdf)"</td><td>Find files by type</td></tr>
+                    <tr><td class="example">tcp contains facebook</td><td>Filter traffic by keyword</td></tr>
+                    <tr><td class="example">!(arp or icmp or stp)</td><td>Filters out stuff you might not care about</td></tr>
+
+                </tbody>
+            </table>
+            
     </details>
 </CheatBlock></pagecontent>    </tabpage>
     <tabpage id="tools">
