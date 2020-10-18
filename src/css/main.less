@@ -59,7 +59,7 @@ hr {
 }
 a {
     color: white;
-    display: block;
+    display: inline-block;
     text-decoration: none;
     font-family: @font-secondary;
     background-color: #222;
@@ -192,6 +192,7 @@ tabpage {
 pagecontent {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    CheatBlock,
     section {
         background-color: #181818;
         box-shadow: 0 0 10px black;
@@ -220,6 +221,36 @@ pagecontent {
             font-family: monospace;
             color: @ega-ltcyan;
             min-width: 30%;
+        }
+    }
+}
+
+CheatBlock {
+    padding: 0.5rem;
+    margin: 0;
+    display: block;
+    summary {
+        text-align: center;
+        margin: 0;
+        list-style: none;
+        color: @deus-gold;
+        display: block;
+        font-size: 1.2rem;
+        font-family: @font-secondary;
+        border-radius: 10px;
+        a {
+            background-color: unset;
+            box-shadow: unset;
+            padding: 0;
+        }
+        &:hover {
+            background-color: @deus-background + #111;
+        }
+    }
+    table {
+        margin: auto;
+        td {
+            color: @ega-grey;
         }
     }
 }
