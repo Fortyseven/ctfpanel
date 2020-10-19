@@ -675,6 +675,11 @@
             {
                 "name": "Reverse Shell Cheat Sheet",
                 "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md"
+            },
+            {
+                "name": "XSS Payloads",
+                "url": "http://www.xss-payloads.com/payloads.html",
+                "alt": "The wonderland of JavaScript unexpected usages, and more."
             }
         ]
     },
