@@ -1080,7 +1080,7 @@
     <tabpage id="cheats">
         <pagecontent class="noflex">
     <CheatBlock>
-    <details>
+    <details open>
         <summary>🗺️ Nmap <a href="https://nmap.org/book/man.html">🔗</a></summary>
             
             <table width="100%">
@@ -1135,6 +1135,12 @@
                 <tbody>
                     <tr><td class="example">-sC</td><td>Performs script scan with default set of scripts. Likely intrusive!</td></tr>
                     <tr><td class="example">--script filename|category|directory</td><td>Runs a specific script</td></tr>
+                </tbody>
+            </table>
+            <table width="100%">
+                <caption><a href="https://nmap.org/book/man-nse.html">Useful Non-default Scripts</a></caption>
+                <tbody>
+                    <tr><td class="example"><a href="https://nmap.org/nsedoc/scripts/ssl-enum-ciphers.html">ssl-enum-ciphers</a></td><td>This script repeatedly initiates SSLv3/TLS connections, each time trying a new cipher or compressor while recording whether a host accepts or rejects it. The end result is a list of all the ciphersuites and compressors that a server accepts.</td></tr>
                 </tbody>
             </table>
             <table width="100%">
@@ -1550,6 +1556,14 @@
                         href="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md"
         >
             Reverse Shell Cheat Sheet
+        </a>
+    
+                    </li>
+                                    <li>
+                                    <a
+            title="The wonderland of JavaScript unexpected usages, and more."            href="http://www.xss-payloads.com/payloads.html"
+        >
+            XSS Payloads
         </a>
     
                     </li>
