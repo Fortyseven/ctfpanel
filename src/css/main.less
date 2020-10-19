@@ -221,6 +221,8 @@ pagecontent {
             font-family: monospace;
             color: @ega-ltcyan;
             min-width: 30%;
+            text-shadow: 0 0 10px @ega-cyan;
+            background-color: #111;
         }
     }
 }
@@ -250,8 +252,15 @@ CheatBlock {
     }
     table {
         margin: auto;
+        caption a {
+            color: @ega-yellow;
+        }
         td {
             color: @ega-grey;
+            code {
+                color: @ega-ltcyan;
+                text-shadow: 0 0 10px @ega-cyan;
+            }
         }
     }
 }
