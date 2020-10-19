@@ -132,6 +132,14 @@
         </a>
     
                     </li>
+                                    <li >
+                                    <a
+            title="...free tool for tracking the redirection paths of URLs"            href="https://wheregoes.com/"
+        >
+            WhereGoes
+        </a>
+    
+                    </li>
                             </ul>
                                                 <h2>Website Analysis</h2>
                     <ul>
@@ -1072,6 +1080,76 @@
     <tabpage id="cheats">
         <pagecontent class="noflex">
     <CheatBlock>
+    <details open>
+        <summary>🗺️ Nmap <a href="https://nmap.org/book/man.html">🔗</a></summary>
+            
+            <table width="100%">
+                <caption><a href="https://nmap.org/book/scan-methods.html">Scan Types</a></caption>
+                <tbody>
+                    <tr><td class="example">-sL</td><td colspan="2">List scan, goes through the target list ONLY doing DNS resolution</td></tr>
+                    <tr><td class="example">-sn</td><td>Ping-only scan; show which hosts are up (formerly <code>-sP</code>)</td></tr>
+                    <tr><td class="example">-sT</td><td><a href="https://nmap.org/book/scan-methods-connect-scan.html">TCP Connect scan</a> (default non-root scan)</td></tr>
+                    <tr><td class="example">-sS</td><td colspan="2"><a href="https://nmap.org/book/synscan.html">TCP SYN "stealth" scan</a>* (default if priv, otherwise <code>-sT</code>; req. root if forced)</td></tr>
+                    <tr><td class=""></td><td colspan="2"><i>* easily detected nowadays</i></td></tr>
+                    <tr><td class="example">-sU -p 111,222,333 </td><td><a href="https://nmap.org/book/scan-methods-udp-scan.html">UDP scan</a> on specific ports</td></tr>
+                    <tr><td class="example">-Pn</td><td>Skip discovery, assume all open (will be SLOW)</td><td class="example">nmap -Pn -F 192.168.1.1</td></tr>
+                </tbody>
+            </table>
+            <table width="100%">
+                <caption><a href="https://nmap.org/book/man-target-specification.html">Targets</a></caption>
+                <tbody>
+                    <tr><td class="example">nmap 192.168.1.1</td><td>Target single IP</td></tr>
+                    <tr><td class="example">nmap hostname.tld</td><td>Target hostname</td></tr>
+                    <tr><td class="example">nmap 192.168.1.25-50</td><td>Target range</td></tr>
+                    <tr><td class="example">nmap 192.168.1.1.0/24</td><td>Target subnet</td></tr>
+                    <tr><td class="example">-iL ip-list.txt</td><td>Import list of IPs as targets</td></tr>
+                </tbody>
+            </table>
+            <table width="100%">
+                <caption><a href="https://nmap.org/book/man-port-specification.html">Port Selection</a></caption>
+                <tbody>
+                    <tr><td></td><td><i>By default, nmap scans the first 1000 ports.<br/>&nbsp;</i></td></tr>
+                    <tr><td class="example">-p 22</td><td>Target single port</td></tr>
+                    <tr><td class="example">-p 22-80</td><td>Target range of ports</td></tr>
+                    <tr><td class="example">-p 22,80,443</td><td>Target specific ports</td></tr>
+                    <tr><td class="example">-F</td><td>Scans the first 100 only ("fast")</td></tr>
+                    <tr><td class="example">-p-</td><td>Scans all 65535 ports (not "fast")</td></tr>
+                </tbody>
+            </table>
+            <table width="100%">
+                <caption><a href="https://nmap.org/book/man-performance.html">Timing and Performance</a></caption>
+                <tbody>
+                    <tr><td class="example">-T0 - -T5</td><td>Specifies a timing template, default 3.</td></tr>
+                    <tr><td class=""></td><td>(0 = paranoid [ASBURDLY SLOW], 1 = sneaky [REAL SLOW!], 2 = polite [SLOW], 3 = default/normal, 4 = aggressive [A FAVORITE], 5 = insane)</td></tr>
+                </tbody>
+            </table>
+            <table width="100%">
+                <caption><a href="https://nmap.org/book/man-version-detection.html">Service</a> and <a href="https://nmap.org/book/man-os-detection.html">OS Detection</a></caption>
+                <tbody>
+                    <tr><td class="example">-A</td><td>Enable OS detection, version detection, script scanning, and traceroute (<code>-O -sV -sC --traceroute</code>)</td></tr>
+                    <tr><td class="example">-sV</td><td>Version detection (<code>--version-intensity</code> (0-9, def: 7) adjusts aggressiveness)</td></tr>
+                </tbody>
+            </table>
+            <table width="100%">
+                <caption><a href="https://nmap.org/book/man-nse.html">Scripts</a> and <a href="https://nmap.org/nsedoc/">Script Directory</a></caption>
+                <tbody>
+                    <tr><td class="example">-sC</td><td>Performs script scan with default set of scripts. Likely intrusive!</td></tr>
+                    <tr><td class="example">--script filename|category|directory</td><td>Runs a specific script</td></tr>
+                </tbody>
+            </table>
+            <table width="100%">
+                <caption>Output Formats</caption>
+                <tbody>
+                    <tr><td class="example">-oN filename.txt</td><td>Output normal</td></tr>
+                    <tr><td class="example">-oX filename.xml</td><td>Output XML</td></tr>
+                    <tr><td class="example">-oG filename.gnmap</td><td>Output for <a href="https://nmap.org/book/output-formats-grepable-output.html">grepable</a></td></tr>
+                    <tr><td class="example">-oA basename</td><td>Output all at once (normal, XML, greppable)</td></tr>
+
+                </tbody>
+            </table>
+            
+    </details>
+</CheatBlock>    <CheatBlock>
     <details>
         <summary>🦈 Wireshark <a href="https://www.wireshark.org/docs/">🔗</a></summary>
             <p><a href="https://www.wireshark.org/docs/dfref/">Display Filters</a> <a href="http://www.tcpdump.org/manpages/pcap-filter.7.html">Capture Filters</a></p>
@@ -1159,6 +1237,7 @@
     #ReverseOutput td.example {
         background-color: black;
         color: #0BB;
+        text-shadow: 0 0 10px #0bb;
         cursor: pointer;
         word-wrap: anywhere;
         width: 100%;
@@ -1166,6 +1245,7 @@
 
     #ReverseOutput td.example:hover {
         color: #0FF;
+        text-shadow: 0 0 10px #0ff;
     }
 
     #ReverseOutput {

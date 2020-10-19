@@ -60,6 +60,11 @@
                         "name": "Unfurl",
                         "url": "https://dfir.blog/unfurl/",
                         "alt": "Unpack and analyze URLs (can decode timestamps, etc)"
+                    },
+                    {
+                        "name": "WhereGoes",
+                        "url": "https://wheregoes.com/",
+                        "alt": "...free tool for tracking the redirection paths of URLs"
                     }
                 ],
                 "subgroups": [{
