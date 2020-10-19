@@ -114,33 +114,6 @@ module.exports = function(grunt) {
     grunt.config('watch', watch_opts);
 
     /********************************************************/
-    //    grunt.loadNpmTasks( 'grunt-string-replace' );
-    //    grunt.config( 'string-replace', {
-    //        version: {
-    //            files:   {
-    //                'tmp/theme.info':   [ config.path.source + '/theme.info' ],
-    //                'tmp/template.php': [ config.path.source + '/template.php' ]
-    //            },
-    //            options: {
-    //                replacements: [
-    //                    {
-    //                        pattern:     /{{ THEME_NAME }}/g,
-    //                        replacement: pkg.theme.name
-    //                    },
-    //                    {
-    //                        pattern:     /{{ THEME_DESCRIPTION }}/g,
-    //                        replacement: pkg.theme.description
-    //                    },
-    //                    {
-    //                        pattern:     /{{ VERSION }}/g,
-    //                        replacement: pkg.version
-    //                    }
-    //                ]
-    //            }
-    //        }
-    //    } );
-
-    /********************************************************/
     grunt.loadNpmTasks('grunt-twig-render');
     grunt.config('twigRender', {
         options: {},
@@ -154,11 +127,26 @@ module.exports = function(grunt) {
                 expand: true,
                 cwd: config.path.source.root + config.path.source.views,
                 src: ["**/*.twig", "!**/_*.twig"],
-                dest: config.path.dest.root + config.path.dest.html,
+                dest: config.path.temp,
                 ext: ".html"
             }]
         }
     });
+
+
+
+    grunt.loadNpmTasks('grunt-minify-html');
+    grunt.config('minifyHtml', {
+        options: {
+            comments: true
+        },
+        dist: {
+            files: {
+                "docs/index.html": config.path.temp + "/index.html"
+            }
+        }
+    });
+
 
     /********************************************************/
     grunt.loadNpmTasks('grunt-contrib-copy');
@@ -213,16 +201,7 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.loadNpmTasks('grunt-zip');
-    grunt.config('zip', {
-        chrome: {
-            cwd: config.path.dest + '/',
-            src: [config.path.dest + '/**/*'],
-            dest: '_releases/' + pkg.name + '-' + pkg.version + '.zip'
-        }
-    });
-
     /******** Register Tasks *************/
     // By default we'll do a complete clean and rebuild
-    grunt.registerTask('default', ['clean', 'less', 'twigRender', 'copy']);
+    grunt.registerTask('default', ['clean', 'less', 'twigRender', 'copy', 'minifyHtml']);
 }

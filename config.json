@@ -18,6 +18,6 @@
             "fonts": "/assets/fonts",
             "html": "/"
         },
-        "temp": "./temp"
+        "temp": "./tmp"
     }
 }
