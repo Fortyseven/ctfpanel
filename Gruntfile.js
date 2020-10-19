@@ -114,6 +114,7 @@ module.exports = function(grunt) {
     grunt.config('watch', watch_opts);
 
     /********************************************************/
+    /* Twig renders down to tmp/index.html for the minification step */
     grunt.loadNpmTasks('grunt-twig-render');
     grunt.config('twigRender', {
         options: {},
@@ -133,8 +134,7 @@ module.exports = function(grunt) {
         }
     });
 
-
-
+    /********************************************************/
     grunt.loadNpmTasks('grunt-minify-html');
     grunt.config('minifyHtml', {
         options: {
