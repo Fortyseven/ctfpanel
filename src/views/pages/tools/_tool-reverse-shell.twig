@@ -41,15 +41,13 @@
 <details open id="ToolReverse">
     <summary>Reverse Shells</summary>
     <p>
-        <form>
-            <div class="controls">
-                <div><label>IP </label><input type="text" id="ReverseIP" placeholder="e.g. 127.0.0.1" />&nbsp;</div>
-                <div><label>Port </label><input type="text" id="ReversePort" placeholder="e.g. 1337" value="1337" />&nbsp;</div>
-                <div><button onClick="reverseGenerate()">Generate</button></div>
-            </div>
-            <div id="ReverseOutput"></div>
-            <p align="right"><small>Adapted from <a class="no-block"" href="https://github.com/spyx/monkey-shell">monkey-shell</a></small></p>
-        </form>
+        <div class="controls">
+            <div><label>IP: </label><input type="text" id="ReverseIP" placeholder="e.g. 127.0.0.1" />&nbsp;</div>
+            <div><label>Port: </label><input type="text" id="ReversePort" placeholder="e.g. 1337" value="1337" />&nbsp;</div>
+            <div><button onClick="return reverseGenerate()">Generate</button></div>
+        </div>
+        <div id="ReverseOutput"></div>
+        <p align="right"><small>Adapted from <a class="no-block" href="https://github.com/spyx/monkey-shell">monkey-shell</a></small></p>
     </p>
 </details>
 <script>
@@ -151,13 +149,13 @@
             window.setTimeout(() => {
                 frmReverseIP.focus();
             });
-            return;
+            return false;
         }
         if (frmReversePort.value.trim().length == 0) {
             window.setTimeout(() => {
                 frmReversePort.focus();
             });
-            return;
+            return false;
         }
 
         // Clear out the output
@@ -180,5 +178,6 @@
         }
 
         reverseOutput.appendChild(table);
+        return false;
     }
 </script>
