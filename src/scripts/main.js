@@ -1,16 +1,14 @@
 'use strict';
 
-function openPopupImage(url)
-{
+function openPopupImage(url) {
     var popup = document.getElementById('PopupContainer');
     popup.classList.add("open");
 
     var content = popup.getElementsByClassName('content')[0];
-    content.innerHTML = "<div class='img' style='background-image:url("+url+")'/>";
+    content.innerHTML = "<div class='img' style='background-image:url(" + url + ")'/>";
 }
 
-function closePopup()
-{
+function closePopup() {
     var popup = document.getElementById('PopupContainer');
     popup.classList.remove("open");
 }
@@ -18,9 +16,9 @@ function closePopup()
 
 // Tabs
 
-$(document).ready(function(){
+$(document).ready(function() {
     $("button[data-for-tab]").each(function(i, el) {
-        $(el).on('click', function(){
+        $(el).on('click', function() {
             changePage($(this).attr('data-for-tab'));
         })
     });
@@ -35,24 +33,30 @@ $(document).ready(function(){
     // otherwise change to that page if we have one
     else if (hash) {
         changePage(hash.substr(1));
-    }
-    else {
+    } else {
         changePage('main', true);
     }
     //NOTE: Not particularly concerned about invalid pages
 });
 
-function changePage(tab_id, skip_hash = false)
-{
+function changePage(tab_id, skip_hash = false) {
     $('tabpage').hide();
 
-    $("#"+tab_id).show();
+    $("#" + tab_id).show();
 
-    if(!skip_hash) {
+    if (!skip_hash) {
         window.location.hash = tab_id;
     }
 
     $("tabselector button").removeClass('selected');
-    $("tabselector button[data-for-tab='"+tab_id+"'").addClass('selected');
-    window.scrollTo(0,0);
+    $("tabselector button[data-for-tab='" + tab_id + "'").addClass('selected');
+    window.scrollTo(0, 0);
+}
+
+window.ready = function(fn) {
+    if (document.readyState != 'loading') {
+        fn();
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
 }

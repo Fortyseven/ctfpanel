@@ -1,4 +1,38 @@
-<pagecontent class="noflex">
+<pagecontent class="noflex" id="CheatPanel">
+    <div id="CheatMenu">
+        <div class="cheat-entry" data-cheat-id="nmap">🗺️ NMap</div>
+        <div class="cheat-entry" data-cheat-id="wireshark">🦈 Wireshark</div>
+    </div>
     {% include "cheats/_cheats-nmap.twig" %}
     {% include "cheats/_cheats-wireshark.twig" %}
 </pagecontent>
+<script>
+window.ready(()=>{
+    let entries = document.querySelectorAll("#CheatPanel .cheat-entry");
+
+    for(i = 0; i < entries.length; i++) {
+        const id = entries[i].dataset.cheatId
+        entries[i].addEventListener("click", (ev) => {
+            openCheat(id)
+        })
+    }
+
+    let last_id = window.sessionStorage.getItem("cheat-open") || undefined;
+    if (last_id) {
+        openCheat(last_id)
+    }
+});
+
+function openCheat(id) {
+    let entries = document.querySelectorAll("#CheatPanel .cheat-block");
+    for(i = 0; i < entries.length; i++) {
+        entries[i].classList.remove("open");
+    }
+
+    document.querySelector(`#CheatPanel .cheat-block[data-cheat-id='${id}']`).classList.add("open");
+
+    window.sessionStorage.setItem("cheat-open", id);
+}
+
+
+</script>
