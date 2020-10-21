@@ -107,7 +107,7 @@ module.exports = function(grunt) {
                 config.path.source.root + '/**/*.info',
                 config.path.source.root + config.path.source.views + "/../data.json"
             ],
-            tasks: ['twigRender:main']
+            tasks: ['twigRender:main', 'minifyHtml']
         }
     };
 
