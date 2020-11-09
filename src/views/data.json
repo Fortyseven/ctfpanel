@@ -206,6 +206,11 @@
                         "url": "https://wiby.me/",
                     },
                     {
+                        "name": "rambler.ru",
+                        "url": "https://www.rambler.ru/",
+                        "alt": "Russian search engine and one of the biggest Russian web portals"
+                    },
+                    {
                         "name": "WolframAlpha",
                         "url": "https://www.wolframalpha.com/",
                     }
