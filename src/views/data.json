@@ -476,7 +476,12 @@
                     {
                         "name": "FCC License Search",
                         "url": "https://wireless2.fcc.gov/UlsApp/UlsSearch/searchLicense.jsp",
-                        "alt": "The ULS License Search enables you to search for a wide range of licenses in the Universal Licensing System. "
+                        "alt": "The ULS License Search enables you to search for a wide range of licenses in the Universal Licensing System."
+                    },
+                    {
+                        "name": "Judy Records",
+                        "url": "http://www.judyrecords.com/",
+                        "alt": "439 million United States Court Cases "
                     }
                 ],
                 "subgroups": [{
