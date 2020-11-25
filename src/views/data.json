@@ -162,7 +162,18 @@
                                 "name": "Threatcrowd",
                                 "url": "https://www.threatcrowd.org/",
                                 "alt": "Search Engine for Threats"
-                            }
+                            },
+                            {
+                                "name": "Threatcrowd",
+                                "url": "https://www.threatcrowd.org/",
+                                "alt": "Search Engine for Threats"
+                            },
+                            {
+                                "name": "IntelligenceX",
+                                "url": "https://intelx.io/",
+                                "alt": "Security intelligence search (leaks, etc.)"
+                            },
+
                         ]
                     }
                 ]
