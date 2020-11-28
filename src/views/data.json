@@ -648,6 +648,11 @@
             {
                 "name": "Explain Shell",
                 "url": "https://explainshell.com/"
+            },
+            {
+                "name": "HackTricks",
+                "url": "https://book.hacktricks.xyz/",
+                "alt": "... each trick/technique/whatever I have learnt in CTFs, real life apps and reading researches and news."
             }
         ],
         "Privilege Escalation": [{
