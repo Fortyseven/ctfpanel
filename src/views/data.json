@@ -631,7 +631,7 @@
             },
             {
                 "name": "OSCP Survival Guide",
-                "url": "https://h4ck.co/wp-content/uploads/2018/06/cheatsheet.txt"
+                "url": "https://web.archive.org/web/20171017213738/https://github.com/frizb/OSCP-Survival-Guide"
             },
             {
                 "name": "CTF Field Guide",
@@ -639,15 +639,13 @@
             },
             {
                 "name": "CTF Katana",
-                "url": "https://github.com/JohnHammond/ctf-katana"
-            },
-            {
-                "name": "CTF Forensics",
-                "url": "https://trailofbits.github.io/ctf/forensics/"
+                "url": "https://github.com/JohnHammond/ctf-katana",
+                "alt": "John Hammond's repository of CTF techniques and tools"
             },
             {
                 "name": "Explain Shell",
-                "url": "https://explainshell.com/"
+                "url": "https://explainshell.com/",
+                "alt": "...write down a command-line to see the help text that matches each argument"
             },
             {
                 "name": "HackTricks",
