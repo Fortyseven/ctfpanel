@@ -278,6 +278,11 @@
                         "url": "https://ghostbin.co/",
                         "alt": "Ghostbin is a paste service."
                     },
+                    {
+                        "name": "IBM Punch Card Decoder",
+                        "url": "http://laighside.com/punchcard.htm",
+                        "alt": "Decode punch cards by aligning the grid"
+                    }
                 ],
                 "subgroups": [{
                         "name": "Chronology",
