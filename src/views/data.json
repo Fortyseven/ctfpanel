@@ -656,6 +656,15 @@
                 "name": "HackTricks",
                 "url": "https://book.hacktricks.xyz/",
                 "alt": "... each trick/technique/whatever I have learnt in CTFs, real life apps and reading researches and news."
+            },
+            {
+                "name": "HackTricks",
+                "url": "https://book.hacktricks.xyz/",
+                "alt": "... each trick/technique/whatever I have learnt in CTFs, real life apps and reading researches and news."
+            },
+            {
+                "name": "PIN Code Analysis",
+                "url": "http://www.datagenetics.com/blog/september32012/"
             }
         ],
         "Privilege Escalation": [{
