@@ -1,6 +1,6 @@
-<pagecontent>
+<pagecontent class="main">
     {% for section_name, object in sections.main %}
-        <section>
+        <section {% if object.style %}style="{{object.style}}"{% endif %}>
             <h1>{{section_name}}</h1>
             <ul>
                 {% for entry in object.entries %}

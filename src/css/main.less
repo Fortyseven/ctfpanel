@@ -196,7 +196,8 @@ tabpage {
 }
 
 pagecontent {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     .cheat-block,
     section {
@@ -205,6 +206,7 @@ pagecontent {
         border-radius: 10px;
         padding: 1em;
         margin: 0.5em;
+        flex: 1 1 400px;
     }
     &.noflex {
         display:block;

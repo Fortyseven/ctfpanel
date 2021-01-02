@@ -25,6 +25,7 @@
                 ]
             },
             "🌍 Network": {
+                "style": "flex-basis:100%",
                 "entries": [{
                         "name": "Shodan",
                         "url": "https://www.shodan.io/",
@@ -65,6 +66,16 @@
                         "name": "WhereGoes",
                         "url": "https://wheregoes.com/",
                         "alt": "...free tool for tracking the redirection paths of URLs"
+                    },
+                    {
+                        "name": "IPFingerPrints",
+                        "url": "https://www.ipfingerprints.com/",
+                        "alt": "...helps you find the approximate geographic location of an IP address along with some other useful information"
+                    },
+                    {
+                        "name": "ExoneraTor",
+                        "url": "https://metrics.torproject.org/exonerator.html",
+                        "alt": "...database of IP addresses that have been part of the Tor network"
                     }
                 ],
                 "subgroups": [{
@@ -81,6 +92,21 @@
                                 "name": "Blacklight",
                                 "url": "https://themarkup.org/blacklight",
                                 "alt": "Real-Time Website Privacy Inspector"
+                            },
+                            {
+                                "name": "Website Informer",
+                                "url": "https://website.informer.com/",
+                                "alt": "...quick aggregated view of everything the Web can promptly tell you about a site"
+                            },
+                            {
+                                "name": "#Spyse_",
+                                "url": "https://spyse.com/",
+                                "alt": "The starting point in your cyber intelligence"
+                            },
+                            {
+                                "name": "Follow.net",
+                                "url": "http://follow.net/",
+                                "alt": "...gain valuable competitive insights which help them make better-informed decisions in their own business"
                             }
                         ]
                     },
@@ -148,6 +174,26 @@
                                 "name": "dnsdumpster",
                                 "url": "https://dnsdumpster.com/",
                                 "alt": "dns recon & research, find & lookup dns records"
+                            },
+                            {
+                                "name": "MX Lookup Toolbox",
+                                "url": "https://mxtoolbox.com/",
+                                "alt": "...list MX records for a domain in priority order"
+                            },
+                            {
+                                "name": "ViewDNS.info",
+                                "url": "https://viewdns.info/",
+                                "alt": "Numerous DNS tools"
+                            },
+                            {
+                                "name": "WhoIsHostingThis",
+                                "url": "https://www.whoishostingthis.com/",
+                                "alt": "Get information about the web host, IP address, name servers & more"
+                            },
+                            {
+                                "name": "Whoisology",
+                                "url": "https://whoisology.com/",
+                                "alt": "Deep connections between domain names & their owners"
                             }
                         ]
                     },
@@ -304,7 +350,8 @@
             }
         },
         "osint": {
-            "OSINT": {
+            "General": {
+                "style": "flex-basis:100%",
                 "entries": [{
                         "name": "Hunter.io (Email)",
                         "url": "https://hunter.io/"
@@ -341,7 +388,45 @@
                     }
                 ]
             },
-            "Reverse Image Search": {
+            "🗣 Usernames": {
+                "entries": [{
+                        "name": "CheckUserNames",
+                        "url": "https://checkusernames.com/",
+                        "alt": "Check the use of your brand or username on 160 Social Networks"
+                    },
+                    {
+                        "name": "KnowEm",
+                        "url": "https://knowem.com/",
+                        "alt": "Search over 500 popular social networks, over 150 domain names, and the entire USPTO Trademark Database to instantly secure your brand on the internet."
+                    },
+                    {
+                        "name": "Namech_k",
+                        "url": "https://www.namechk.com/",
+                        "alt": "...search username or vanity url is still available at dozens of popular social networking and social bookmarking websites."
+                    },
+                    {
+                        "name": "namecheckr",
+                        "url": "https://www.namecheckr.com/",
+                        "alt": "Check domain & social username availability across multiple networks."
+                    },
+                    {
+                        "name": "NameCheckup",
+                        "url": "https://namecheckup.com/",
+                        "alt": "NameCheckup is a search tool that allows users to check social media username availability over many social networks and sites and check domain availability at the same time."
+                    },
+                    {
+                        "name": "usersearch.org",
+                        "url": "https://usersearch.org/",
+                        "alt": "...search the internet and deep web for information not included in standard search engines"
+                    },
+                    {
+                        "name": "whatsmyname.app",
+                        "url": "https://whatsmyname.app/",
+                        "alt": "...enumerate usernames across many websites"
+                    },
+                ]
+            },
+            "🖼 Reverse Image Search": {
                 "entries": [{
                         "name": "Google",
                         "url": "https://images.google.com/"
@@ -364,6 +449,7 @@
                 ]
             },
             "💬 Social Media": {
+                "style": "flex-basis:100%",
                 "entries": [{
                         "name": "Snapchat Map",
                         "url": "https://map.snapchat.com/"
@@ -376,6 +462,11 @@
                         "name": "Social Media Analysis Toolkit",
                         "url": "https://www.smat-app.com/",
                         "alt": "...analyze and visualize larger trends on a variety of platforms."
+                    },
+                    {
+                        "name": "LiveLeak",
+                        "url": "https://www.liveleak.com/",
+                        "alt": "Assorted, minimally moderated video content"
                     },
 
                 ],
@@ -402,6 +493,16 @@
                                 "url": "https://tweeterid.com/",
                                 "alt": "Twitter ID and username converter"
                             },
+                            {
+                                "name": "backtweets",
+                                "url": "http://backtweets.com/",
+                                "alt": "A Twitter time machine"
+                            },
+                            {
+                                "name": "Tinfoleak",
+                                "url": "https://tinfoleak.com/",
+                                "alt": "Tinfokeak.com provides a web interface for the OSINT tool `Tinfoleak`"
+                            }
                         ]
                     },
                     {
@@ -418,6 +519,16 @@
                                 "name": "fbdown.net",
                                 "url": "https://fbdown.net/",
                                 "alt": "Download Facebook videos given a video link"
+                            },
+                            {
+                                "name": "Find My Facebook ID",
+                                "url": "https://findmyfbid.in/",
+                                "alt": "Extracts Facebook unique system id from profile page"
+                            },
+                            {
+                                "name": "Lookup ID",
+                                "url": "https://lookup-id.com/",
+                                "alt": "Lookup-ID.com helps you to find the Facebook ID for your profile or a Group."
                             }
                         ]
                     },
@@ -449,7 +560,7 @@
                     }
                 ]
             },
-            "IMs": {
+            "✉ IMs": {
                 "subgroups": [{
                     "name": "Telegram",
                     "entries": [{
