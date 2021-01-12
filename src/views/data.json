@@ -609,6 +609,11 @@
                         "name": "Judy Records",
                         "url": "http://www.judyrecords.com/",
                         "alt": "439 million United States Court Cases "
+                    },
+                    {
+                        "name": "Muckrock",
+                        "url": "https://www.muckrock.com/",
+                        "alt": "File, track, and share public records requests."
                     }
                 ],
                 "subgroups": [{
