@@ -15,7 +15,7 @@ The intention is for the page to become my default "home" page in my browsers. A
 It can always be accessed here: https://fortyseven.github.io/ctfpanel/
 
 ## Building and Misc Notes
-- You shouldn't _need_ to build this, but if you do it's a simple `npm install`, `grunt`, `grunt watch` affair.
+- You shouldn't _need_ to build this, but if you do it's a simple `npm install`, `npx grunt`, `npx grunt watch` affair.
 
 - When the page is built, the output goes into `/docs` (which is picked up on by the github.io page instantly on push).
 
