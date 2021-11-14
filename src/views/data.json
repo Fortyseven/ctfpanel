@@ -511,11 +511,6 @@
                                 "url": "https://whopostedwhat.com/"
                             },
                             {
-                                "name": "fbdown.net",
-                                "url": "https://fbdown.net/",
-                                "alt": "Download Facebook videos given a video link"
-                            },
-                            {
                                 "name": "Find My Facebook ID",
                                 "url": "https://findmyfbid.in/",
                                 "alt": "Extracts Facebook unique system id from profile page"
