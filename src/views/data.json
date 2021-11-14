@@ -660,11 +660,6 @@
                         "alt": "Live air traffic -- From their headsets to you"
                     },
                     {
-                        "name": "Airframes",
-                        "url": "http://airframes.org/",
-                        "alt": "Aircraft Registration Database Lookup - Passenger airliners, cargo airplanes, business jets, helicopters, private aircraft, civil and military, showing common registry data as well as mode-S radar transponder addresses."
-                    },
-                    {
                         "name": "Blackswan.ch",
                         "url": "https://blackswan.ch/"
                     },
