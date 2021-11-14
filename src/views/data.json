@@ -523,20 +523,6 @@
                         ]
                     },
                     {
-                        "name": "Instagram",
-                        "entries": [{
-                                "name": "GramFly",
-                                "url": "https://gramfly.com/",
-                                "alt": "View Interactions & Activity of Instagram Users"
-                            },
-                            {
-                                "name": "StoriesIG",
-                                "url": "https://storiesig.com/",
-                                "alt": "Save the stories of your favorite users before they are deleted"
-                            }
-                        ]
-                    },
-                    {
                         "name": "YouTube",
                         "entries": [{
                                 "name": "YouTube DataViewer",
