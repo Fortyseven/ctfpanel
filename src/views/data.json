@@ -540,16 +540,10 @@
                 "subgroups": [{
                     "name": "Telegram",
                     "entries": [{
-                            "name": "Buzz.im",
-                            "url": "https://search.buzz.im/",
-                            "alt": "Telegram monitoring and search"
-                        },
-                        {
-                            "name": "Telegram Analytics",
-                            "url": "https://tgstat.ru/en",
-                            "alt": "Statistical data on 150,000+ Telegram channels in multiple languages"
-                        }
-                    ]
+                        "name": "Telegram Analytics",
+                        "url": "https://tgstat.ru/en",
+                        "alt": "Statistical data on 150,000+ Telegram channels in multiple languages"
+                    }]
                 }]
             },
             "🧾 Public Records": {
