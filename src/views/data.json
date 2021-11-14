@@ -213,7 +213,7 @@
                                 "name": "IntelligenceX",
                                 "url": "https://intelx.io/",
                                 "alt": "Security intelligence search (leaks, etc.)"
-                            },
+                            }
 
                         ]
                     }
@@ -230,11 +230,11 @@
             "📷 Images": {
                 "entries": [{
                         "name": "FotoForensics",
-                        "url": "http://fotoforensics.com/",
+                        "url": "http://fotoforensics.com/"
                     },
                     {
                         "name": "Forensically",
-                        "url": "https://29a.ch/photo-forensics/",
+                        "url": "https://29a.ch/photo-forensics/"
                     },
                     {
                         "name": "Steganography Online",
@@ -251,11 +251,11 @@
             "🗿 Alternate Search": {
                 "entries": [{
                         "name": "Million Short",
-                        "url": "https://millionshort.com/",
+                        "url": "https://millionshort.com/"
                     },
                     {
                         "name": "Wiby",
-                        "url": "https://wiby.me/",
+                        "url": "https://wiby.me/"
                     },
                     {
                         "name": "rambler.ru",
@@ -264,7 +264,7 @@
                     },
                     {
                         "name": "WolframAlpha",
-                        "url": "https://www.wolframalpha.com/",
+                        "url": "https://www.wolframalpha.com/"
                     }
                 ]
             },
@@ -290,7 +290,7 @@
             "🐛 Virus and Malware Research": {
                 "entries": [{
                     "name": "VirusTotal",
-                    "url": "https://www.virustotal.com/",
+                    "url": "https://www.virustotal.com/"
                 }, {
                     "name": "Hybrid Analysis",
                     "url": "https://hybrid-analysis.com/",
@@ -418,7 +418,7 @@
                         "name": "whatsmyname.app",
                         "url": "https://whatsmyname.app/",
                         "alt": "...enumerate usernames across many websites"
-                    },
+                    }
                 ]
             },
             "🖼 Reverse Image Search": {
@@ -462,8 +462,7 @@
                         "name": "LiveLeak",
                         "url": "https://www.liveleak.com/",
                         "alt": "Assorted, minimally moderated video content"
-                    },
-
+                    }
                 ],
                 "subgroups": [{
                         "name": "Twitter",
@@ -667,7 +666,7 @@
                         "name": "FAA Registry",
                         "url": "https://registry.faa.gov/aircraftinquiry/NNum_inquiry.aspx",
                         "alt": "Data Updated each Federal Working Day at Midnight"
-                    },
+                    }
                 ]
             },
             "🚢 Sea/Land": {
@@ -705,7 +704,7 @@
                         "name": "Equasis",
                         "url": "http://www.equasis.org/EquasisWeb/public/HomePage",
                         "alt": "Vessel ownership and identification records."
-                    },
+                    }
                 ]
             }
         }
