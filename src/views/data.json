@@ -113,11 +113,6 @@
                     {
                         "name": "Domains",
                         "entries": [{
-                                "name": "Website Investigation",
-                                "url": "https://netbootcamp.org/websitetool.html",
-                                "alt": "Launch page for multiple search engines"
-                            },
-                            {
                                 "name": "WhoXY",
                                 "url": "https://www.whoxy.com/",
                                 "alt": "Whois API / Whois History / Reverse Whois"
