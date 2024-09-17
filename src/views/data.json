@@ -242,11 +242,6 @@
                         "alt": "For decoding bit data encoded in the even/odd RGB values"
                     },
                     {
-                        "name": "Raw Pixels",
-                        "url": "https://rawpixels.net/",
-                        "alt": "Analyze raw image data, you can display memory dumps of frame buffers, video buffers and uncompressed video files"
-                    },
-                    {
                         "name": "StegOnline",
                         "url":"https://georgeom.net/StegOnline"
                     }
