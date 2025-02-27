@@ -108,14 +108,9 @@
                                 "alt": "...quick aggregated view of everything the Web can promptly tell you about a site"
                             },
                             {
-                                "name": "#Spyse_",
-                                "url": "https://spyse.com/",
-                                "alt": "The starting point in your cyber intelligence"
-                            },
-                            {
-                                "name": "Follow.net",
-                                "url": "http://follow.net/",
-                                "alt": "...gain valuable competitive insights which help them make better-informed decisions in their own business"
+                                "name": "Website Favicon Hashes",
+                                "url": "https://kriztalz.sh/favicon-hash/",
+                                "alt": "...generate favicon hashes instantly."
                             }
                         ]
                     },
