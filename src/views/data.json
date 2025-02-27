@@ -318,17 +318,8 @@
             "🔧 Utilities": {
                 "entries": [
                     {
-                        "name": "anonfiles.com",
-                        "url": "https://anonfiles.com/"
-                    },
-                    {
                         "name": "Message Header Analyzer",
                         "url": "https://mha.azurewebsites.net/"
-                    },
-                    {
-                        "name": "Ghostbin",
-                        "url": "https://ghostbin.co/",
-                        "alt": "Ghostbin is a paste service."
                     },
                     {
                         "name": "IBM Punch Card Decoder",
