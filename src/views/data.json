@@ -87,6 +87,26 @@
                 ],
                 "subgroups": [
                     {
+                        "name": "Archives/Preservation",
+                        "entries": [
+                            {
+                                "name": "Ghost Archive",
+                                "url": "https://ghostarchive.org/",
+                                "alt": "A tool for archiving and preserving online content."
+                            },
+                            {
+                                "name": "Archive.ph",
+                                "url": "https://archive.ph/",
+                                "alt": "archive.today mirror (PH)"
+                            },
+                            {
+                                "name": "Archive.is",
+                                "url": "https://archive.is/",
+                                "alt": "archive.today mirror (IS)"
+                            }
+                        ]
+                    },
+                    {
                         "name": "Website Analysis",
                         "entries": [
                             {
