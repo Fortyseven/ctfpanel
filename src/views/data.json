@@ -403,6 +403,10 @@
                     {
                         "name": "Bellingcat’s Online Investigation Toolkit (GDoc)",
                         "url": "https://bit.ly/bcattools"
+                    },
+                    {
+                        "name": "osint.lolarchiver.com",
+                        "url": "https://osint.lolarchiver.com"
                     }
                 ]
             },
