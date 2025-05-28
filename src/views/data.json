@@ -34,11 +34,6 @@
                         "alt": "The world's first search engine for Internet-connected devices"
                     },
                     {
-                        "name": "Censys",
-                        "url": "https://search.censys.io/",
-                        "alt": "Censys helps organizations, individuals, and researchers find and monitor every server on the Internet to reduce exposure and improve security."
-                    },
-                    {
                         "name": "Greynoise",
                         "url": "https://viz.greynoise.io/"
                     },
