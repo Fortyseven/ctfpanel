@@ -6,12 +6,12 @@
                     {
                         "name": "CyberChef",
                         "url": "https://gchq.github.io/CyberChef/",
-                        "alt": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
+                        "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
                     },
                     {
                         "name": "Binvis",
                         "url": "https://binvis.io/#/",
-                        "alt": "Visual binary analysis"
+                        "description": "Visual binary analysis"
                     },
                     {
                         "name": "ASCII Table",
@@ -21,7 +21,7 @@
                     {
                         "name": "Hex Editor",
                         "url": "https://hexed.it/",
-                        "alt": "Online hex editor"
+                        "description": "Online hex editor"
                     }
                 ]
             },
@@ -31,7 +31,7 @@
                     {
                         "name": "Shodan",
                         "url": "https://www.shodan.io/",
-                        "alt": "The world's first search engine for Internet-connected devices"
+                        "description": "The world's first search engine for Internet-connected devices"
                     },
                     {
                         "name": "Greynoise",
@@ -40,12 +40,12 @@
                     {
                         "name": "Censys",
                         "url": "https://censys.io/",
-                        "alt": "Get a current view of all of your organization's assets so you can proactively prevent targeted attacks and investigate suspicious activity."
+                        "description": "Get a current view of all of your organization's assets so you can proactively prevent targeted attacks and investigate suspicious activity."
                     },
                     {
                         "name": "Wigle",
                         "url": "https://wigle.net/",
-                        "alt": "Wireless Network Mapping"
+                        "description": "Wireless Network Mapping"
                     },
                     {
                         "name": "ZoomEye",
@@ -62,22 +62,22 @@
                     {
                         "name": "Unfurl",
                         "url": "https://dfir.blog/unfurl/",
-                        "alt": "Unpack and analyze URLs (can decode timestamps, etc)"
+                        "description": "Unpack and analyze URLs (can decode timestamps, etc)"
                     },
                     {
                         "name": "WhereGoes",
                         "url": "https://wheregoes.com/",
-                        "alt": "...free tool for tracking the redirection paths of URLs"
+                        "description": "...free tool for tracking the redirection paths of URLs"
                     },
                     {
                         "name": "IPFingerPrints",
                         "url": "https://www.ipfingerprints.com/",
-                        "alt": "...helps you find the approximate geographic location of an IP address along with some other useful information"
+                        "description": "...helps you find the approximate geographic location of an IP address along with some other useful information"
                     },
                     {
                         "name": "ExoneraTor",
                         "url": "https://metrics.torproject.org/exonerator.html",
-                        "alt": "...database of IP addresses that have been part of the Tor network"
+                        "description": "...database of IP addresses that have been part of the Tor network"
                     }
                 ],
                 "subgroups": [
@@ -87,17 +87,17 @@
                             {
                                 "name": "Ghost Archive",
                                 "url": "https://ghostarchive.org/",
-                                "alt": "A tool for archiving and preserving online content."
+                                "description": "A tool for archiving and preserving online content."
                             },
                             {
                                 "name": "Archive.ph",
                                 "url": "https://archive.ph/",
-                                "alt": "archive.today mirror (PH)"
+                                "description": "archive.today mirror (PH)"
                             },
                             {
                                 "name": "Archive.is",
                                 "url": "https://archive.is/",
-                                "alt": "archive.today mirror (IS)"
+                                "description": "archive.today mirror (IS)"
                             }
                         ]
                     },
@@ -115,17 +115,17 @@
                             {
                                 "name": "Blacklight",
                                 "url": "https://themarkup.org/blacklight",
-                                "alt": "Real-Time Website Privacy Inspector"
+                                "description": "Real-Time Website Privacy Inspector"
                             },
                             {
                                 "name": "Website Informer",
                                 "url": "https://website.informer.com/",
-                                "alt": "...quick aggregated view of everything the Web can promptly tell you about a site"
+                                "description": "...quick aggregated view of everything the Web can promptly tell you about a site"
                             },
                             {
                                 "name": "Website Favicon Hashes",
                                 "url": "https://kriztalz.sh/favicon-hash/",
-                                "alt": "...generate favicon hashes instantly."
+                                "description": "...generate favicon hashes instantly."
                             }
                         ]
                     },
@@ -135,27 +135,27 @@
                             {
                                 "name": "WhoXY",
                                 "url": "https://www.whoxy.com/",
-                                "alt": "Whois API / Whois History / Reverse Whois"
+                                "description": "Whois API / Whois History / Reverse Whois"
                             },
                             {
                                 "name": "Whois History",
                                 "url": "https://whois-history-api.whoisxmlapi.com/",
-                                "alt": "...view relevant historical WHOIS records"
+                                "description": "...view relevant historical WHOIS records"
                             },
                             {
                                 "name": "urlscan.io",
                                 "url": "https://urlscan.io/",
-                                "alt": "...service to scan and analyse websites"
+                                "description": "...service to scan and analyse websites"
                             },
                             {
                                 "name": "Robtex",
                                 "url": "https://robtex.com/",
-                                "alt": "Robtex is used for various kinds of research of IP numbers, Domain names, etc"
+                                "description": "Robtex is used for various kinds of research of IP numbers, Domain names, etc"
                             },
                             {
                                 "name": "Security Trails",
                                 "url": "https://securitytrails.com/",
-                                "alt": "Tap into a treasure-trove of cyber security gold for info you can’t find anywhere else."
+                                "description": "Tap into a treasure-trove of cyber security gold for info you can’t find anywhere else."
                             },
                             {
                                 "name": "crt.sh",
@@ -164,12 +164,12 @@
                             {
                                 "name": "CompleteDNS History",
                                 "url": "https://completedns.com/dns-history/",
-                                "alt": "Largest DNS record history database, with more than 2.2 billion nameserver changes detected, daily updated."
+                                "description": "Largest DNS record history database, with more than 2.2 billion nameserver changes detected, daily updated."
                             },
                             {
                                 "name": "DNS Trails",
                                 "url": "https://securitytrails.com/dns-trails",
-                                "alt": "World's Largest Repository of historical DNS data"
+                                "description": "World's Largest Repository of historical DNS data"
                             },
                             {
                                 "name": "Geo Data Tool",
@@ -178,37 +178,37 @@
                             {
                                 "name": "SpyOnWeb",
                                 "url": "http://www.spyonweb.com/",
-                                "alt": "Can search by analytics tracking codes -- We take the information from public sources, then structure it for your quick and convenient search for the websites that probably belong to the same owner."
+                                "description": "Can search by analytics tracking codes -- We take the information from public sources, then structure it for your quick and convenient search for the websites that probably belong to the same owner."
                             },
                             {
                                 "name": "subdomainfinder.c99.nl",
                                 "url": "https://subdomainfinder.c99.nl/",
-                                "alt": "Subdomain Finder is a scanner that scans an entire domain to find as many subdomains as possible."
+                                "description": "Subdomain Finder is a scanner that scans an entire domain to find as many subdomains as possible."
                             },
                             {
                                 "name": "dnsdumpster",
                                 "url": "https://dnsdumpster.com/",
-                                "alt": "dns recon & research, find & lookup dns records"
+                                "description": "dns recon & research, find & lookup dns records"
                             },
                             {
                                 "name": "MX Lookup Toolbox",
                                 "url": "https://mxtoolbox.com/",
-                                "alt": "...list MX records for a domain in priority order"
+                                "description": "...list MX records for a domain in priority order"
                             },
                             {
                                 "name": "ViewDNS.info",
                                 "url": "https://viewdns.info/",
-                                "alt": "Numerous DNS tools"
+                                "description": "Numerous DNS tools"
                             },
                             {
                                 "name": "WhoIsHostingThis",
                                 "url": "https://www.whoishostingthis.com/",
-                                "alt": "Get information about the web host, IP address, name servers & more"
+                                "description": "Get information about the web host, IP address, name servers & more"
                             },
                             {
                                 "name": "Whoisology",
                                 "url": "https://whoisology.com/",
-                                "alt": "Deep connections between domain names & their owners"
+                                "description": "Deep connections between domain names & their owners"
                             }
                         ]
                     },
@@ -218,12 +218,12 @@
                             {
                                 "name": "OPSwat",
                                 "url": "https://metadefender.opswat.com/",
-                                "alt": "...identify, detect, and remediate advanced security threats from data and devices coming into and out of enterprise networks"
+                                "description": "...identify, detect, and remediate advanced security threats from data and devices coming into and out of enterprise networks"
                             },
                             {
                                 "name": "IntelligenceX",
                                 "url": "https://intelx.io/",
-                                "alt": "Security intelligence search (leaks, etc.)"
+                                "description": "Security intelligence search (leaks, etc.)"
                             }
                         ]
                     }
@@ -234,7 +234,7 @@
                     {
                         "name": "DCode.fr",
                         "url": "https://www.dcode.fr/tools-list#cryptography",
-                        "alt": "Everything crypto",
+                        "description": "Everything crypto",
                         "favorite": true
                     }
                 ]
@@ -252,7 +252,7 @@
                     {
                         "name": "Steganography Online",
                         "url": "https://stylesuxx.github.io/steganography/",
-                        "alt": "For decoding bit data encoded in the even/odd RGB values"
+                        "description": "For decoding bit data encoded in the even/odd RGB values"
                     },
                     {
                         "name": "StegOnline",
@@ -273,7 +273,7 @@
                     {
                         "name": "rambler.ru",
                         "url": "https://www.rambler.ru/",
-                        "alt": "Russian search engine and one of the biggest Russian web portals"
+                        "description": "Russian search engine and one of the biggest Russian web portals"
                     },
                     {
                         "name": "WolframAlpha",
@@ -290,7 +290,7 @@
                     {
                         "name": "JSNice",
                         "url": "http://jsnice.org/",
-                        "alt": "Statistical renaming, Type inference and Deobfuscation"
+                        "description": "Statistical renaming, Type inference and Deobfuscation"
                     }
                 ],
                 "subgroups": [
@@ -314,7 +314,7 @@
                     {
                         "name": "Hybrid Analysis",
                         "url": "https://hybrid-analysis.com/",
-                        "alt": "...malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology."
+                        "description": "...malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology."
                     }
                 ],
                 "subgroups": [
@@ -324,7 +324,7 @@
                             {
                                 "name": "any.run",
                                 "url": "https://any.run/",
-                                "alt": "Watch the epidemic as if it was on your computer, but in a more convenient and secure way, with a variety of monitoring features."
+                                "description": "Watch the epidemic as if it was on your computer, but in a more convenient and secure way, with a variety of monitoring features."
                             }
                         ]
                     }
@@ -339,7 +339,7 @@
                     {
                         "name": "IBM Punch Card Decoder",
                         "url": "http://laighside.com/punchcard.htm",
-                        "alt": "Decode punch cards by aligning the grid"
+                        "description": "Decode punch cards by aligning the grid"
                     }
                 ],
                 "subgroups": [
@@ -349,7 +349,7 @@
                             {
                                 "name": "🌞 SunCalc",
                                 "url": "https://www.suncalc.org/",
-                                "alt": "...shows the movement of the sun and sunlight-phase for a certain day at a certain place."
+                                "description": "...shows the movement of the sun and sunlight-phase for a certain day at a certain place."
                             }
                         ]
                     },
@@ -359,7 +359,7 @@
                             {
                                 "name": "Image Scrubber",
                                 "url": "https://everestpipkin.github.io/image-scrubber/",
-                                "alt": "Scrub EXIF data; blur/obscure images. All in browser."
+                                "description": "Scrub EXIF data; blur/obscure images. All in browser."
                             }
                         ]
                     }
@@ -385,12 +385,12 @@
                     {
                         "name": "License Plate Mania",
                         "url": "http://www.licenseplatemania.com/",
-                        "alt": "...collection of license plate pictures across the world..."
+                        "description": "...collection of license plate pictures across the world..."
                     },
                     {
                         "name": "Torrent IP Search",
                         "url": "https://iknowwhatyoudownload.com/en/peer/",
-                        "alt": "Aggregates peer-sharing statistics and allows searching by IP address to see what was torrented"
+                        "description": "Aggregates peer-sharing statistics and allows searching by IP address to see what was torrented"
                     },
                     {
                         "name": "OSINT Framework",
@@ -415,27 +415,27 @@
                     {
                         "name": "Namech_k",
                         "url": "https://www.namechk.com/",
-                        "alt": "...search username or vanity url is still available at dozens of popular social networking and social bookmarking websites."
+                        "description": "...search username or vanity url is still available at dozens of popular social networking and social bookmarking websites."
                     },
                     {
                         "name": "namecheckr",
                         "url": "https://www.namecheckr.com/",
-                        "alt": "Check domain & social username availability across multiple networks."
+                        "description": "Check domain & social username availability across multiple networks."
                     },
                     {
                         "name": "NameCheckup",
                         "url": "https://namecheckup.com/",
-                        "alt": "NameCheckup is a search tool that allows users to check social media username availability over many social networks and sites and check domain availability at the same time."
+                        "description": "NameCheckup is a search tool that allows users to check social media username availability over many social networks and sites and check domain availability at the same time."
                     },
                     {
                         "name": "usersearch.org",
                         "url": "https://usersearch.org/",
-                        "alt": "...search the internet and deep web for information not included in standard search engines"
+                        "description": "...search the internet and deep web for information not included in standard search engines"
                     },
                     {
                         "name": "whatsmyname.app",
                         "url": "https://whatsmyname.app/",
-                        "alt": "...enumerate usernames across many websites"
+                        "description": "...enumerate usernames across many websites"
                     }
                 ]
             },
@@ -448,17 +448,17 @@
                     {
                         "name": "Bing",
                         "url": "https://images.bing.com/",
-                        "alt": "Bing allows for targeting subregions of images, and it's not too bad actually"
+                        "description": "Bing allows for targeting subregions of images, and it's not too bad actually"
                     },
                     {
                         "name": "Yandex",
                         "url": "https://yandex.com/images/",
-                        "alt": "A heavy European focus; often has very surprising results"
+                        "description": "A heavy European focus; often has very surprising results"
                     },
                     {
                         "name": "TinEye",
                         "url": "https://tineye.com/",
-                        "alt": "Seems to only really be good for specific 1:1 matches"
+                        "description": "Seems to only really be good for specific 1:1 matches"
                     }
                 ]
             },
@@ -466,22 +466,58 @@
                 "style": "flex-basis:100%",
                 "entries": [
                     {
-                        "name": "Snapchat Map",
-                        "url": "https://map.snapchat.com/"
-                    },
-                    {
                         "name": "craigslist",
                         "url": "https://craigslist.org/"
                     },
                     {
                         "name": "Social Media Analysis Toolkit",
                         "url": "https://www.smat-app.com/",
-                        "alt": "...analyze and visualize larger trends on a variety of platforms."
+                        "description": "...analyze and visualize larger trends on a variety of platforms."
                     },
                     {
                         "name": "LiveLeak",
                         "url": "https://www.liveleak.com/",
-                        "alt": "Assorted, minimally moderated video content"
+                        "description": "Assorted, minimally moderated video content"
+                    },
+                    {
+                        "name": "Phantom Buster",
+                        "url": "https://phantombuster.com/phantombuster",
+                        "description": "Automation tool suite that includes data extraction capabilities"
+                    },
+                    {
+                        "name": "RocketReach",
+                        "url": "https://rocketreach.co/person",
+                        "description": "Allows you to programmatically search and lookup contact info over 700 million professionals and 35 million companies"
+                    },
+                    {
+                        "name": "Awesome Lists",
+                        "url": "http://awesomelists.top",
+                        "description": "A curated list of awesome lists for various programming languages, frameworks, and tools"
+                    },
+                    {
+                        "name": "Export Comments",
+                        "url": "https://exportcomments.com/",
+                        "description": "Easily exports all comments from your social media posts to Excel file"
+                    },
+                    {
+                        "name": "Social Searcher",
+                        "url": "https://www.social-searcher.com/",
+                        "description": "Allows you to monitor all public social mentions in social networks and the web"
+                    },
+                    {
+                        "name": "Digital Privacy",
+                        "url": "https://github.com/ffffffff0x/Digital-Privacy",
+                        "description": "A collection of resources and tools for enhancing digital privacy and security"
+                    },
+                    {
+                        "name": "OSoMeNet Search",
+                        "url": "https://osome.iu.edu/tools/networks/",
+                        "description": "Explore how information spreads across Bluesky, Mastodon, TikTok with an interactive network using OSoMe data"
+                    },
+                    {
+                        "name": "Free People Search Tool",
+                        "url": "https://freepeoplesearchtool.com/#gsc.tab=0",
+                        "description": "Find people easily online"
                     }
                 ],
                 "subgroups": [
@@ -491,10 +527,6 @@
                             {
                                 "name": "Twitter Search",
                                 "url": "https://search.twitter.com/"
-                            },
-                            {
-                                "name": "Botometer",
-                                "url": "https://botometer.iuni.iu.edu/#!/"
                             },
                             {
                                 "name": "#onemilliontweetmap",
@@ -507,17 +539,62 @@
                             {
                                 "name": "Tweeter ID",
                                 "url": "https://tweeterid.com/",
-                                "alt": "Twitter ID and username converter"
+                                "description": "Twitter ID and username converter"
                             },
                             {
                                 "name": "backtweets",
                                 "url": "http://backtweets.com/",
-                                "alt": "A Twitter time machine"
+                                "description": "A Twitter time machine"
                             },
                             {
                                 "name": "Tinfoleak",
                                 "url": "https://tinfoleak.com/",
-                                "alt": "Tinfokeak.com provides a web interface for the OSINT tool `Tinfoleak`"
+                                "description": "Tinfokeak.com provides a web interface for the OSINT tool `Tinfoleak`"
+                            },
+                            {
+                                "name": "Twitter Search Tool",
+                                "url": "https://www.aware-online.com/en/osint-tools/twitter-search-tool/",
+                                "description": "Create advanced search queries within Twitter"
+                            },
+                            {
+                                "name": "Deleted Tweet Finder",
+                                "url": "https://cache.digitaldigging.org/",
+                                "description": "Search for deleted tweets across multiple archival services"
+                            },
+                            {
+                                "name": "Twitonomy",
+                                "url": "https://www.twitonomy.com/",
+                                "description": "Twitter analytics and much more"
+                            },
+                            {
+                                "name": "BirdHunt",
+                                "url": "https://birdhunt.huntintel.io/",
+                                "description": "Easily find social media posts surrounding a location"
+                            },
+                            {
+                                "name": "Social Bearing",
+                                "url": "https://socialbearing.com/",
+                                "description": "Insights & analytics for tweets & timelines"
+                            },
+                            {
+                                "name": "memory.lol",
+                                "url": "https://memory.lol/app/",
+                                "description": "A tiny web service that provides historical information about Twitter users"
+                            },
+                            {
+                                "name": "Wayback Tweets",
+                                "url": "https://waybacktweets.streamlit.app/",
+                                "description": "Display multiple archived tweets on Wayback Machine and avoid opening each link manually"
+                            },
+                            {
+                                "name": "Download Twitter Data",
+                                "url": "https://www.twtdata.com/",
+                                "description": "Download Twitter data in csv format by entering any Twitter handle, keyword, hashtag, List ID or Space ID"
+                            },
+                            {
+                                "name": "Twitter Video Downloader",
+                                "url": "https://twittervideodownloader.com/",
+                                "description": "Download Twitter videos & GIFs from tweets"
                             }
                         ]
                     },
@@ -535,13 +612,48 @@
                             {
                                 "name": "Find My Facebook ID",
                                 "url": "https://findmyfbid.in/",
-                                "alt": "Extracts Facebook unique system id from profile page"
+                                "description": "Extracts Facebook unique system id from profile page"
                             },
                             {
                                 "name": "Lookup ID",
                                 "url": "https://lookup-id.com/",
-                                "alt": "Lookup-ID.com helps you to find the Facebook ID for your profile or a Group."
-                            }
+                                "description": "Lookup-ID.com helps you to find the Facebook ID for your profile or a Group."
+                            },
+                            {
+                                "name": "Facebook People Search",
+                                "url": "https://www.facebook.com/directory/people/",
+                                "description": "Search on Facebook by victim's name"
+                            },
+                            {
+                                "name": "Facebook Graph Searcher",
+                                "url": "https://intelx.io/tools?tab=facebook",
+                                "description": "To search someone on Facebook"
+                            },
+                            {
+                                "name": "Facebook Matrix",
+                                "url": "https://plessas.net/facebookmatrix",
+                                "description": "Formulas for Searching Facebook"
+                            },
+                            {
+                                "name": "Facebook Recover Lookup",
+                                "url": "https://www.facebook.com/login/identify?ctx=recover",
+                                "description": "Used to check if a given email or phone number is associated with any Facebook account or not"
+                            },
+                            {
+                                "name": "SocialData API",
+                                "url": "https://socialdata.tools/",
+                                "description": "An unofficial Twitter API alternative that allows scraping historical tweets, user profiles, lists and Twitter spaces"
+                            },
+                            {
+                                "name": "FollowerWonk",
+                                "url": "https://followerwonk.com/bio",
+                                "description": "Helps you find Twitter accounts using bio and provides many other useful features"
+                            },
+                            {
+                                "name": "SOWsearch",
+                                "url": "https://www.sowsearch.info/",
+                                "description": "A simple interface to show how the current Facebook search function works"
+                            },
                         ]
                     },
                     {
@@ -556,7 +668,292 @@
                                 "url": "https://mattw.io/youtube-geofind/"
                             }
                         ]
-                    }
+                    },
+                    {
+                        "name": "Instagram",
+                        "entries": [
+                            {
+                                "name": "Find Instagram User Id",
+                                "url": "https://www.codeofaninja.com/tools/find-instagram-user-id/",
+                                "description": "Provides an easy way for developers and designers to get Instagram account numeric ID by username"
+                            },
+                            {
+                                "name": "Exportgram",
+                                "url": "https://exportgram.net/",
+                                "description": "Web application made for people who want to export Instagram comments into excel, csv and json formats"
+                            },
+                            {
+                                "name": "Instahunt",
+                                "url": "https://instahunt.huntintel.io/",
+                                "description": "Easily find social media posts surrounding a location"
+                            },
+                            {
+                                "name": "Toutatis Instagram Python",
+                                "url": "https://pypi.org/project/toutatis/",
+                                "description": "Tool to retrieve private information such as Phone Number, Mail Address, ID on Instagram accounts via API"
+                            },
+                            {
+                                "name": "IMGinn.io",
+                                "url": "https://imginn.io/",
+                                "description": "View and download all the content on the social network Instagram all at one place"
+                            },
+                            {
+                                "name": "SolG Instagram",
+                                "url": "https://github.com/yezz123/SoIG",
+                                "description": "The Instagram OSINT Tool gets a range of information from an Instagram account"
+                            },
+                            {
+                                "name": "Inflact IG Profile Analyzer",
+                                "url": "https://inflact.com/tools/profile-analyzer/",
+                                "description": "Analyze any public profile on Instagram \u2013 the tool is free, unlimited, and secure"
+                            },
+                            {
+                                "name": "Instalooter",
+                                "url": "https://pypi.org/project/instalooter/",
+                                "description": "Program that can download any picture or video associated from an Instagram profile, without any API access"
+                            },
+                            {
+                                "name": "Instaloader",
+                                "url": "https://github.com/instaloader/instaloader",
+                                "description": "Download pictures (or videos) along with their captions and other metadata from Instagram"
+                            },
+                            {
+                                "name": "Osintgram",
+                                "url": "https://github.com/Datalux/Osintgram",
+                                "description": "Osintgram is an OSINT tool on Instagram to collect, analyze, and run reconnaissance"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Reddit",
+                        "entries": [
+                            {
+                                "name": "Redditery",
+                                "url": "http://www.redditery.com",
+                                "description": "Explore Reddit posts and comments based on various criteria"
+                            },
+                            {
+                                "name": "reddtip",
+                                "url": "https://www.redditp.com",
+                                "description": "Show appreciation to Reddit users by sending them tips in cryptocurrencies"
+                            },
+                            {
+                                "name": "Reddit Shell",
+                                "url": "https://redditshell.com",
+                                "description": "Command-line interface for browsing and interacting with Reddit"
+                            },
+                            {
+                                "name": "Reeddit",
+                                "url": "https://reedditapp.com",
+                                "description": "Simplified and clean Reddit web interface for a distraction-free browsing experience"
+                            },
+                            {
+                                "name": "Wisdom of Reddit",
+                                "url": "https://wisdomofreddit.com",
+                                "description": "Curated collection of insightful quotes and comments from Reddit"
+                            },
+                            {
+                                "name": "Subreddits",
+                                "url": "http://subreddits.org",
+                                "description": "Directory of active subreddits organized by various categories"
+                            },
+                            {
+                                "name": "Redective",
+                                "url": "http://redective.com",
+                                "description": "Investigate and analyze Reddit users based on their post history"
+                            },
+                            {
+                                "name": "Reddit User Analyser",
+                                "url": "https://atomiks.github.io/reddit-user-analyser",
+                                "description": "Analyze and visualize the activity and behavior of Reddit users"
+                            },
+                            {
+                                "name": "Vizit",
+                                "url": "https://redditstuff.github.io/sna/vizit",
+                                "description": "Visualize and analyze relationships between Reddit users and subreddits"
+                            },
+                            {
+                                "name": "Reddit Stream",
+                                "url": "http://reddit-stream.com",
+                                "description": "Live-streaming of Reddit comments for real-time discussions"
+                            },
+                            {
+                                "name": "Reddit Search",
+                                "url": "https://realsrikar.github.io/reddit-search",
+                                "description": "Various tools and websites for searching and discovering content on Reddit"
+                            },
+                            {
+                                "name": "Reddit List",
+                                "url": "http://redditlist.com",
+                                "description": "Directory of popular subreddits organized by various categories"
+                            },
+                            {
+                                "name": "Reddit Hacks",
+                                "url": "https://github.com/EdOverflow/hacks",
+                                "description": "Collection of Reddit hacks and tricks for advanced users"
+                            },
+                            {
+                                "name": "Reddit Comment Search",
+                                "url": "https://redditcommentsearch.com",
+                                "description": "Search for specific comments and conversations on Reddit"
+                            },
+                            {
+                                "name": "Reddit Archive",
+                                "url": "http://www.redditarchive.com",
+                                "description": "Archive of Reddit posts and comments for historical reference"
+                            },
+                            {
+                                "name": "rdddeck",
+                                "url": "https://rdddeck.com",
+                                "description": "Real-time dashboard for monitoring multiple Reddit communities"
+                            },
+                            {
+                                "name": "Mostly Harmless",
+                                "url": "http://kerrick.github.io/Mostly-Harmless/#features",
+                                "description": "A suite of tools for Reddit, including user analysis, subreddit comparison, and more"
+                            },
+                            {
+                                "name": "F5BOT",
+                                "url": "https://f5bot.com",
+                                "description": "Receive notifications for new Reddit posts matching specific keywords"
+                            },
+                            {
+                                "name": "Suggest me a subreddit",
+                                "url": "https://nikas.praninskas.com/suggest-subreddit",
+                                "description": "Get recommendations for new subreddits to explore based on your preferences"
+                            },
+                            {
+                                "name": "Universal Reddit Scraper (URS)",
+                                "url": "https://github.com/JosephLai241/URS",
+                                "description": "Python-based tool for scraping Reddit data for analysis"
+                            },
+                            {
+                                "name": "socid_extractor",
+                                "url": "https://github.com/soxoj/socid_extractor",
+                                "description": "Extract user information from Reddit and other social media platforms"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Snapchat",
+                        "entries": [
+                            {
+                                "name": "Snap Map",
+                                "url": "https://map.snapchat.com",
+                                "description": "Snapchat's feature that allows users to share their location and view Snaps from around the world"
+                            },
+                            {
+                                "name": "SnapIntel",
+                                "url": "https://github.com/Kr0wZ/SnapIntel",
+                                "description": "A python tool providing you information about Snapchat users"
+                            },
+                            {
+                                "name": "Snapchat-mapscraper",
+                                "url": "https://github.com/nemec/snapchat-map-scraper",
+                                "description": "A tool for scraping public Snapchat Stories from the Snap Map"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Tiktok",
+                        "entries": [
+                            {
+                                "name": "Pickuki TikTok",
+                                "url": "https://www.picuki.com/",
+                                "description": "Browse publicly available TikTok content without logging in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "LinkedIn",
+                        "entries": [
+                            {
+                                "name": "CrossLinked",
+                                "url": "https://github.com/m8sec/CrossLinked",
+                                "description": "LinkedIn enumeration tool that uses search engine scraping to collect valid employee names from an organization"
+                            },
+                            {
+                                "name": "LinkedInt",
+                                "url": "https://github.com/vysecurity/LinkedInt",
+                                "description": "Providing you with LinkedIn Intelligence"
+                            },
+                            {
+                                "name": "InSpy LinkedIn",
+                                "url": "https://github.com/jobroche/InSpy",
+                                "description": "InSpy is a python based LinkedIn enumeration tool"
+                            },
+                            {
+                                "name": "RecruitEm",
+                                "url": "https://recruitin.net/",
+                                "description": "Allows you to search LinkedIn profiles. It helps recruiters to create a Google boolean string that searches all public profiles"
+                            },
+                            {
+                                "name": "LinkedProspect LinkedIn Boolean Search",
+                                "url": "https://linkedprospect.com/linkedin-boolean-search-tool/#tool",
+                                "description": "Build a targeted list of LinkedIn people using boolean search"
+                            },
+                            {
+                                "name": "Linkedin Search Tool",
+                                "url": "https://inteltechniques.com/tools/Linkedin.html",
+                                "description": "Provides you an interface with various tools for LinkedIn OSINT"
+                            },
+                            {
+                                "name": "IntelligenceX Linkedin",
+                                "url": "https://intelx.io/tools?tab=linkedin",
+                                "description": "A web-based tool for searching someone on LinkedIn"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pinterest",
+                        "entries": [
+                            {
+                                "name": "Pinterest Photo Downloader",
+                                "url": "https://www.expertsphp.com/pinterest-photo-downloader.html",
+                                "description": "Website providing a tool to download photos from Pinterest"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "GitHub",
+                        "entries": [
+                            {
+                                "name": "Github Trending RSS",
+                                "url": "https://mshibanami.github.io/GitHubTrendingRSS",
+                                "description": "An RSS feed generator for trending repositories on GitHub"
+                            },
+                            {
+                                "name": "Find Github User ID",
+                                "url": "http://caius.github.io/github_id",
+                                "description": "A web tool for finding the unique identifier (ID) of a GitHub user"
+                            },
+                            {
+                                "name": "Github Dorks",
+                                "url": "https://github.com/techgaun/github-dorks",
+                                "description": "A collection of GitHub dorks, which are search queries to find sensitive information in repositories"
+                            },
+                            {
+                                "name": "GH Archive",
+                                "url": "http://www.gharchive.org",
+                                "description": "A project that provides a public dataset of GitHub activity, including events and metadata"
+                            },
+                            {
+                                "name": "GitGot",
+                                "url": "https://github.com/BishopFox/GitGot",
+                                "description": "A semi-automated, feedback-driven tool for auditing Git repositories"
+                            },
+                            {
+                                "name": "git-hound",
+                                "url": "https://github.com/tillson/git-hound",
+                                "description": "A tool for finding sensitive information exposed in GitHub repositories"
+                            },
+                            {
+                                "name": "gitGraber Secrets",
+                                "url": "https://github.com/hisxo/gitGraber",
+                                "description": "A tool for searching and cloning sensitive information in GitHub repositories"
+                            },
+                        ]
+                    },
                 ]
             },
             "✉ IMs": {
@@ -567,7 +964,7 @@
                             {
                                 "name": "Telegram Analytics",
                                 "url": "https://tgstat.ru/en",
-                                "alt": "Statistical data on 150,000+ Telegram channels in multiple languages"
+                                "description": "Statistical data on 150,000+ Telegram channels in multiple languages"
                             }
                         ]
                     }
@@ -586,32 +983,32 @@
                     {
                         "name": "qPublic",
                         "url": "https://qpublic.schneidercorp.com/",
-                        "alt": "...public access portals that allow users to view County and City information, public records and Geographical Information Systems (GIS)."
+                        "description": "...public access portals that allow users to view County and City information, public records and Geographical Information Systems (GIS)."
                     },
                     {
                         "name": "FastPeopleSearch",
                         "url": "https://FastPeopleSearch.com/",
-                        "alt": "Added this because I found some surprisingly deep results compared to other, similar sites."
+                        "description": "Added this because I found some surprisingly deep results compared to other, similar sites."
                     },
                     {
                         "name": "USPTO Trademark Search",
                         "url": "http://tmsearch.uspto.gov/",
-                        "alt": "United States Patent and Trademark Office TESS (Trademark Electronic Search System)"
+                        "description": "United States Patent and Trademark Office TESS (Trademark Electronic Search System)"
                     },
                     {
                         "name": "FCC License Search",
                         "url": "https://wireless2.fcc.gov/UlsApp/UlsSearch/searchLicense.jsp",
-                        "alt": "The ULS License Search enables you to search for a wide range of licenses in the Universal Licensing System."
+                        "description": "The ULS License Search enables you to search for a wide range of licenses in the Universal Licensing System."
                     },
                     {
                         "name": "Judy Records",
                         "url": "http://www.judyrecords.com/",
-                        "alt": "439 million United States Court Cases "
+                        "description": "439 million United States Court Cases "
                     },
                     {
                         "name": "Muckrock",
                         "url": "https://www.muckrock.com/",
-                        "alt": "File, track, and share public records requests."
+                        "description": "File, track, and share public records requests."
                     }
                 ],
                 "subgroups": [
@@ -675,12 +1072,12 @@
                     {
                         "name": "OpenSky Network",
                         "url": "https://opensky-network.org/",
-                        "alt": "Open Air Traffic Data for Research"
+                        "description": "Open Air Traffic Data for Research"
                     },
                     {
                         "name": "planefinder",
                         "url": "https://planefinder.net/",
-                        "alt": "Includes historical flight data"
+                        "description": "Includes historical flight data"
                     },
                     {
                         "name": "ADS-B Exchange",
@@ -689,7 +1086,7 @@
                     {
                         "name": "LiveATC",
                         "url": "https://www.liveatc.net/",
-                        "alt": "Live air traffic -- From their headsets to you"
+                        "description": "Live air traffic -- From their headsets to you"
                     },
                     {
                         "name": "Blackswan.ch",
@@ -698,7 +1095,7 @@
                     {
                         "name": "FAA Registry",
                         "url": "https://registry.faa.gov/aircraftinquiry/NNum_inquiry.aspx",
-                        "alt": "Data Updated each Federal Working Day at Midnight"
+                        "description": "Data Updated each Federal Working Day at Midnight"
                     }
                 ]
             },
@@ -707,43 +1104,43 @@
                     {
                         "name": "Track-Trace",
                         "url": "https://www.track-trace.com/",
-                        "alt": "Easy access to tracking data (packages, shipping containers, etc)"
+                        "description": "Easy access to tracking data (packages, shipping containers, etc)"
                     },
                     {
                         "name": "WikiRoutes",
                         "url": "https://wikiroutes.info/",
-                        "alt": "World's public transport database edited by people on the principles of Wikipedia"
+                        "description": "World's public transport database edited by people on the principles of Wikipedia"
                     },
                     {
                         "name": "Vessel Finder",
                         "url": "https://www.vesselfinder.com/",
-                        "alt": "Real-time data on the positions and movements of vessels, utilising a large network of terrestrial AIS receivers."
+                        "description": "Real-time data on the positions and movements of vessels, utilising a large network of terrestrial AIS receivers."
                     },
                     {
                         "name": "MarineTraffic",
                         "url": "https://www.marinetraffic.com/",
-                        "alt": "MarineTraffic is the world’s leading provider of ship tracking and maritime intelligence."
+                        "description": "MarineTraffic is the world’s leading provider of ship tracking and maritime intelligence."
                     },
                     {
                         "name": "Global Fishing Watch",
                         "url": "https://globalfishingwatch.org/map/",
-                        "alt": "...offers a way to see the tracks of commercial fishing vessels at sea in near real-time. "
+                        "description": "...offers a way to see the tracks of commercial fishing vessels at sea in near real-time. "
                     },
                     {
                         "name": "FleetMon",
                         "url": "https://www.fleetmon.com/",
-                        "alt": "Open database of ships and ports world-wide; real-time AIS position data, technical information and photos from more than 500000 vessels."
+                        "description": "Open database of ships and ports world-wide; real-time AIS position data, technical information and photos from more than 500000 vessels."
                     },
                     {
                         "name": "Equasis",
                         "url": "http://www.equasis.org/EquasisWeb/public/HomePage",
-                        "alt": "Vessel ownership and identification records."
+                        "description": "Vessel ownership and identification records."
                     }
                 ]
             }
         }
     },
-    "cheats": {
+    "other": {
         "Misc": [
             {
                 "name": "Helpful Linux CTF Commands",
@@ -760,22 +1157,17 @@
             {
                 "name": "CTF Katana",
                 "url": "https://github.com/JohnHammond/ctf-katana",
-                "alt": "John Hammond's repository of CTF techniques and tools"
+                "description": "John Hammond's repository of CTF techniques and tools"
             },
             {
                 "name": "Explain Shell",
                 "url": "https://explainshell.com/",
-                "alt": "...write down a command-line to see the help text that matches each argument"
+                "description": "...write down a command-line to see the help text that matches each argument"
             },
             {
                 "name": "HackTricks",
                 "url": "https://book.hacktricks.xyz/",
-                "alt": "... each trick/technique/whatever I have learnt in CTFs, real life apps and reading researches and news."
-            },
-            {
-                "name": "HackTricks",
-                "url": "https://book.hacktricks.xyz/",
-                "alt": "... each trick/technique/whatever I have learnt in CTFs, real life apps and reading researches and news."
+                "description": "... each trick/technique/whatever I have learnt in CTFs, real life apps and reading researches and news."
             },
             {
                 "name": "PIN Code Analysis",
@@ -790,12 +1182,12 @@
             {
                 "name": "GTFOBins (Unix)",
                 "url": "https://gtfobins.github.io/",
-                "alt": "...curated list of Unix binaries that can be exploited by an attacker to bypass local security restrictions."
+                "description": "...curated list of Unix binaries that can be exploited by an attacker to bypass local security restrictions."
             },
             {
                 "name": "Living Off The Land Binaries (Windows)",
                 "url": "https://lolbas-project.github.io/",
-                "alt": "...curated list of Windows binaries that can be exploited by an attacker to bypass local security restrictions."
+                "description": "...curated list of Windows binaries that can be exploited by an attacker to bypass local security restrictions."
             }
         ],
         "Explots": [

@@ -5,14 +5,14 @@
 {% macro link_render( entry ) %}
     {% if entry.type == "popup-image" %}
         <a
-            {% if entry.alt %}title="{{entry.alt}}"{% endif %}
+            {% if entry.description %}title="{{entry.description}}"{% endif %}
             onclick="openPopupImage('{{entry.url}}')"
         >
             💬 {{entry.name}}
         </a>
     {% else %}
         <a
-            {% if entry.alt %}title="{{entry.alt}}"{% endif %}
+            {% if entry.description %}title="{{entry.description}}"{% endif %}
             href="{{entry.url}}"
         >
             {{entry.name}}
