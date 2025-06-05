@@ -4,7 +4,7 @@
     "description": "",
     "main": "Gruntfile.js",
     "scripts": {
-        "monitor": "browser-sync start -s dist",
+        "monitor": "npx browser-sync start -s docs",
         "build": "npx grunt",
         "watch": "npx grunt watch"
     },
