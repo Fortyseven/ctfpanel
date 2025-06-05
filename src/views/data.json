@@ -176,11 +176,6 @@
                                 "url": "https://www.geodatatool.com/"
                             },
                             {
-                                "name": "SpyOnWeb",
-                                "url": "http://www.spyonweb.com/",
-                                "description": "Can search by analytics tracking codes -- We take the information from public sources, then structure it for your quick and convenient search for the websites that probably belong to the same owner."
-                            },
-                            {
                                 "name": "subdomainfinder.c99.nl",
                                 "url": "https://subdomainfinder.c99.nl/",
                                 "description": "Subdomain Finder is a scanner that scans an entire domain to find as many subdomains as possible."
