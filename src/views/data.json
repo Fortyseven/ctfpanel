@@ -1149,10 +1149,6 @@
         ],
         "Privilege Escalation": [
             {
-                "name": "Linux elevation of privileges",
-                "url": "https://guif.re/linuxeop"
-            },
-            {
                 "name": "GTFOBins (Unix)",
                 "url": "https://gtfobins.github.io/",
                 "description": "...curated list of Unix binaries that can be exploited by an attacker to bypass local security restrictions."
