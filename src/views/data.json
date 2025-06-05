@@ -513,11 +513,11 @@
                 ],
                 "subgroups": [
                     {
-                        "name": "Twitter",
+                        "name": "Twitter/X",
                         "entries": [
                             {
-                                "name": "Twitter Search",
-                                "url": "https://search.twitter.com/"
+                                "name": "Twitter/X Search",
+                                "url": "https://x.com/search"
                             },
                             {
                                 "name": "#onemilliontweetmap",
@@ -535,7 +535,7 @@
                             {
                                 "name": "backtweets",
                                 "url": "http://backtweets.com/",
-                                "description": "A Twitter time machine"
+                                "description": "A Twitter time machine [May be down.]"
                             },
                             {
                                 "name": "Tinfoleak",
