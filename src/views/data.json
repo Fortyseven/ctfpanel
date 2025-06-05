@@ -601,11 +601,6 @@
                                 "url": "https://whopostedwhat.com/"
                             },
                             {
-                                "name": "Find My Facebook ID",
-                                "url": "https://findmyfbid.in/",
-                                "description": "Extracts Facebook unique system id from profile page"
-                            },
-                            {
                                 "name": "Lookup ID",
                                 "url": "https://lookup-id.com/",
                                 "description": "Lookup-ID.com helps you to find the Facebook ID for your profile or a Group."
