@@ -1002,10 +1002,6 @@
                         "name": "Geographic Specific Searches",
                         "entries": [
                             {
-                                "name": "ArkansasVoters",
-                                "url": "https://arkvoters.com/"
-                            },
-                            {
                                 "name": "ColoradoVoters",
                                 "url": "https://coloradovoters.info/"
                             },
@@ -1033,10 +1029,6 @@
                                 "name": "OklaVoters",
                                 "url": "https://oklavoters.com/"
                             },
-                            {
-                                "name": "RhodeIslandVoters",
-                                "url": "https://rivoters.com/"
-                            }
                         ]
                     }
                 ]
