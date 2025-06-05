@@ -1105,11 +1105,6 @@
                         "description": "...offers a way to see the tracks of commercial fishing vessels at sea in near real-time. "
                     },
                     {
-                        "name": "FleetMon",
-                        "url": "https://www.fleetmon.com/",
-                        "description": "Open database of ships and ports world-wide; real-time AIS position data, technical information and photos from more than 500000 vessels."
-                    },
-                    {
                         "name": "Equasis",
                         "url": "http://www.equasis.org/EquasisWeb/public/HomePage",
                         "description": "Vessel ownership and identification records."
