@@ -1074,6 +1074,11 @@
                         "name": "FAA Registry",
                         "url": "https://registry.faa.gov/aircraftinquiry/NNum_inquiry.aspx",
                         "description": "Data Updated each Federal Working Day at Midnight"
+                    },
+                    {
+                        "name": "",
+                        "url": "https://www.drorpilot.com/English/notam.htm",
+                        "description": "NOTAM Message Decoder"
                     }
                 ]
             },
