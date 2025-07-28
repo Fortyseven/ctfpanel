@@ -252,6 +252,11 @@
                     {
                         "name": "StegOnline",
                         "url": "https://georgeom.net/StegOnline"
+                    },
+                    {
+                        "name": "Magic Eye Solver",
+                        "url": "https://magiceye.ecksdee.co.uk/",
+                        "description": "Solve Magic Eye (stereogram) puzzles online"
                     }
                 ]
             },
