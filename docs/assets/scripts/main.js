@@ -1,29 +1,29 @@
 "use strict";
 
 function openPopupImage(url) {
-    var popup = document.getElementById("PopupContainer");
+    let popup = document.getElementById("PopupContainer");
     popup.classList.add("open");
 
-    var content = popup.getElementsByClassName("content")[0];
+    let content = popup.getElementsByClassName("content")[0];
     content.innerHTML =
         "<div class='img' style='background-image:url(" + url + ")'/>";
 }
 
 function closePopup() {
-    var popup = document.getElementById("PopupContainer");
+    let popup = document.getElementById("PopupContainer");
     popup.classList.remove("open");
 }
 
 // Tabs
 
-$(document).ready(function () {
-    $("button[data-for-tab]").each(function (i, el) {
-        $(el).on("click", function () {
-            changePage($(this).attr("data-for-tab"));
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("button[data-for-tab]").forEach(function (el) {
+        el.addEventListener("click", function () {
+            changePage(this.getAttribute("data-for-tab"));
         });
     });
 
-    var hash = window.location.hash;
+    let hash = window.location.hash;
 
     // remove the hash if we're on the main page
     if (hash == "#main") {
@@ -40,16 +40,25 @@ $(document).ready(function () {
 });
 
 function changePage(tab_id, skip_hash = false) {
-    $("tabpage").hide();
+    let tabpages = document.querySelectorAll("tabpage");
+    tabpages.forEach(function (el) {
+        el.style.display = "none";
+    });
 
-    $("#" + tab_id).show();
+    let tab = document.getElementById(tab_id);
+    if (tab) tab.style.display = ""; // Remove inline style, let CSS handle display
 
     if (!skip_hash) {
         window.location.hash = tab_id;
     }
 
-    $("tabselector button").removeClass("selected");
-    $("tabselector button[data-for-tab='" + tab_id + "'").addClass("selected");
+    let tabButtons = document.querySelectorAll("tabselector button");
+    tabButtons.forEach(function (btn) {
+        btn.classList.remove("selected");
+    });
+
+    let selectedBtn = document.querySelector("tabselector button[data-for-tab='" + tab_id + "']");
+    if (selectedBtn) selectedBtn.classList.add("selected");
     window.scrollTo(0, 0);
 }
 
