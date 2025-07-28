@@ -23,8 +23,6 @@ It can always be accessed here: https://fortyseven.github.io/ctfpanel/
 
 - My intention was to make this as self-reliant as possible. Yes, the bulk of this is external links -- a glorified bookmark panel. But if there's a way to make a small tool self-hosted, I'll do it. (The reverse shell tool, for instance. Or the absurd ASCII chart.)
 
-- I'm using Zepto (a tiny jQuery clone) for rapid JS'ing, but I'm probably going to remove that at some point. There's little need for jQuery in 202x. Just need to start swapping out the "jQuery" meats in my head for "native JS" meats and build up that muscle memory.
-
 - Speaking of which, I'm also encouraging the use of native HTML5 controls where possible. Such as the accordion panels provided by `<details>` and `<summary>`.
 
 ## But Most Importantly...
